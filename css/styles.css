@@ -193,3 +193,131 @@ body {
   height: 100%;
   border-radius: 10px; /* Opcional */
 }
+
+/* ================= TABLA ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.agen {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.app {
+    width: 50%;
+    margin: auto;
+}
+
+
+/* ================= HEADER ================= */
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.btn {
+    background: #00bfff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+/* ================= AGENDA GRID ================= */
+
+.agenda {
+
+    display: grid;
+
+    grid-template-columns:
+        90px
+        repeat(6, 1fr);
+
+    grid-template-rows:
+        70px
+        repeat(5, 60px);
+
+    background: #050b18;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* ================= HEADERS ================= */
+
+.corner {
+    background: #050b18;
+}
+
+
+.day {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    border-left: 1px solid #000000;
+    color: #ffffff;
+}
+
+
+
+.hour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: px solid #000000;
+    color: #ffffff;
+}
+
+
+/* ================= CELDAS ================= */
+
+.cell {
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+
+/* ================= EVENTOS ================= */
+
+.eventone {
+    background: #22b3ff;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 0 0 10px #00bfff;
+    z-index: 5;
+}
+
+.eventtwo {
+    background: #22b3ff;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 0 0 10px #00bfff;
+    z-index: 5;
+}
+
+
+.freefire {
+    background: #b8cafc;
+}
+
+
+.roblox {
+    background: #ffffff;
+}
