@@ -223,8 +223,8 @@ body {
 .btn {
     background: #00bfff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
 }
