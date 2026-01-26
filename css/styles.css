@@ -193,46 +193,35 @@ body {
   height: 100%;
   border-radius: 10px; /* Opcional */
 }
-
 /* ================= TABLA ================= */
-
-
-
 .agen {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
 }
-
 .app {
     width: 50%;
     margin: auto;
+    color: #ffffff;
+    text-align: center;
 }
-
-
 /* ================= HEADER ================= */
-
 .topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
-
-
 .btn {
-    background: #00bfff;
+    background: #000000;
     border: none;
     padding: 10px 10px;
     border-radius: 10px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: bold; 
+    color: #ffffff;
 }
-
-
-
 /* ================= AGENDA GRID ================= */
-
 .agenda {
 
     display: grid;
@@ -245,74 +234,36 @@ body {
         70px
         repeat(5, 60px);
 
-    background: #050b18;
+    background: #767676;
     border-radius: 10px;
     overflow: hidden;
 }
-
-
 /* ================= HEADERS ================= */
-
-.corner {
-    background: #050b18;
-}
-
 
 .day {
     text-align: center;
     padding-top: 10px;
     font-weight: bold;
-    border-left: 1px solid #000000;
-    color: #ffffff;
+    border-left: 1px solid #ffffff;
 }
-
-
-
 .hour {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: px solid #000000;
-    color: #ffffff;
-}
-
-
-/* ================= CELDAS ================= */
-
-.cell {
     border-top: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
 }
-
+/* ================= CELDAS ================= */
+.cell {
+    border-top: 1px solid #767676;
+    border-left: 1px solid #767676;
+}
 
 /* ================= EVENTOS ================= */
 
-.eventone {
-    background: #22b3ff;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 14px;
-    box-shadow: 0 0 10px #00bfff;
-    z-index: 5;
-}
-
-.eventtwo {
-    background: #22b3ff;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 14px;
-    box-shadow: 0 0 10px #00bfff;
-    z-index: 5;
-}
-
-
 .freefire {
-    background: #b8cafc;
+    background: #000000;
 }
-
-
 .roblox {
-    background: #ffffff;
+    background: #fafafa;
+    color: rgb(0, 0, 0);
 }
