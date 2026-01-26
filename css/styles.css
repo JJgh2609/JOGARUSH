@@ -147,6 +147,12 @@ body {
 .whatsapp-link:hover {
     opacity: 0.9;
 }
+.redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    
+}
 .facebook {
     display: inline-block;
     margin-top: 10px;
