@@ -1,0 +1,35 @@
+name: Actualizar Shorts JogaRush
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Consultar playlists de YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/actualizar_youtube.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "JogaRush Bot"
+          git config user.email "actions@github.com"
+          git add data/segmentos.json
+          git diff --cached --quiet || git commit -m "Actualizar Shorts JogaRush"
+          git push
