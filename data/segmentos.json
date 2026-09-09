@@ -1,8 +1,43 @@
 {
-  "news": null,
-  "tips": null,
-  "futbol": null,
-  "gaming": null,
-  "cine_anime": null,
-  "_actualizado": null
+  "news": {
+    "titulo": "Nintendo Switch 2: ahora TÚ ELIGES el juego del paquete 🎮🔥",
+    "videoId": "OKrYQnXHRB8",
+    "url": "https://www.youtube.com/shorts/OKrYQnXHRB8",
+    "miniatura": "https://i.ytimg.com/vi/OKrYQnXHRB8/maxresdefault.jpg",
+    "fecha_playlist": "2026-08-30T07:31:04Z",
+    "fecha_video": "2026-08-30T14:00:33Z"
+  },
+  "tips": {
+    "titulo": "💻🖨️ ¡Laptop + impresora por poco más de $9,000! ¿Sí conviene? 👀",
+    "videoId": "dXf-P5iuAm8",
+    "url": "https://www.youtube.com/shorts/dXf-P5iuAm8",
+    "miniatura": "https://i.ytimg.com/vi/dXf-P5iuAm8/maxresdefault.jpg",
+    "fecha_playlist": "2026-09-07T23:43:24Z",
+    "fecha_video": "2026-09-07T23:47:36Z"
+  },
+  "futbol": {
+    "titulo": "⚽🔥 ¡Real Madrid arranca la Champions con victoria ante el Inter!",
+    "videoId": "IiNbOo6Apgo",
+    "url": "https://www.youtube.com/shorts/IiNbOo6Apgo",
+    "miniatura": "https://i.ytimg.com/vi/IiNbOo6Apgo/maxresdefault.jpg",
+    "fecha_playlist": "2026-09-08T21:36:36Z",
+    "fecha_video": "2026-09-08T21:37:00Z"
+  },
+  "gaming": {
+    "titulo": "Minecraft Dungeons II ya mostró su nuevo gameplay 🎮😎",
+    "videoId": "kM7hovJcRcA",
+    "url": "https://www.youtube.com/shorts/kM7hovJcRcA",
+    "miniatura": "https://i.ytimg.com/vi/kM7hovJcRcA/maxresdefault.jpg",
+    "fecha_playlist": "2026-08-22T00:28:40Z",
+    "fecha_video": "2026-08-22T00:30:00Z"
+  },
+  "cine_anime": {
+    "titulo": "🐉🍔 ¡Dragon Ball Super ya llegó a Burger King México! 🔥",
+    "videoId": "B8wC0YXA7ok",
+    "url": "https://www.youtube.com/shorts/B8wC0YXA7ok",
+    "miniatura": "https://i.ytimg.com/vi/B8wC0YXA7ok/maxresdefault.jpg",
+    "fecha_playlist": "2026-09-07T21:57:59Z",
+    "fecha_video": "2026-09-07T21:58:29Z"
+  },
+  "_actualizado": "2026-09-09T05:45:09+00:00"
 }
