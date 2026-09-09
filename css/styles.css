@@ -54,3 +54,29 @@
             .menu-btn{display:block}}@media(max-width:680px){.brand span{display:none}.hero h1{font-size:clamp(2.4rem,13vw,4rem)}
             .segments,.products,.video-grid{grid-template-columns:1fr}.platform-head{align-items:flex-start;flex-direction:column}
             .light{width:100%}.promo{flex-direction:column;align-items:stretch}.promo .btn{width:100%}.social-shell{padding:12px}}
+
+.segment-thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 14px;
+    margin: 15px 0;
+    background: #07152f;
+}
+
+.segment-date {
+    color: #8fa5c7;
+    font-size: 13px;
+    margin: 8px 0 14px;
+}
+
+.btn-segment {
+    width: 100%;
+    background: linear-gradient(
+        135deg,
+        #347dff,
+        #7358ff
+    );
+    color: #ffffff;
+    margin-top: 10px;
+}
