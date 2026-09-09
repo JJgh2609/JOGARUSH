@@ -1,252 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta name ="viewrport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WL6FD16L8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Google Analytics 4 - JogaRush -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WL6FD16L8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8WL6FD16L8');
+  </script>
 
-      gtag('config', 'G-8WL6FD16L8');
-    </script>
-
-    <title>PaginaOficialJogaRush</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="JogaRush: gaming, noticias, tips, Shorts, transmisiones, TikTok, Facebook y recomendaciones gamer.">
+  <meta name="theme-color" content="#07152f">
+  <title>JogaRush | Portal Gamer</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<script>
-document.addEventListener('contextmenu',event => event.preventDefault());
-</script>
 <body>
-    <script src="java/codigo.js"></script>
-    <div class="hero">
-            <div class="Logoimg">
-            <img src="imag/Logo.png" alt="Imagen de JogaRush" width="15%"></div>
-            <h1 class="titulo-principal">
-            "Contenido Gamer + Stickers personalizados"</h1>
-            <h2 class="titulo-secundario">
-            Pedidos y Cotizaciones via WhatsApp</h2>
-    </div>
-    <div class="s_hero">
-            <video class="video-mini2" controls autoplay muted loop>
-            <source src="imag/@Bienvenido.mp4" type="video/mp4">
-            </video></div>
-    <div class="espacio">
-        <h1 class="titulo-terciario">“Tu Mundo Gamer en un Solo Lugar”</h1>
-        <h2 class="titulo-cuartario">Bienvenido a JogaRush, donde la pasión por los videojuegos se encuentra con el arte personalizado. Descubre contenido exclusivo, streams en vivo y stickers únicos para expresar tu estilo gamer.</h2> <br>
-        
-        <div class="app">
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <img src="imag/Logo.png" alt="Logo JogaRush" class="brand-logo">
+      <div><strong>JOGARUSH</strong><span>Gaming · Noticias · Comunidad</span></div>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#actualidad">Actualidad</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#tiktok">TikTok</a>
+      <a href="#facebook">Facebook</a>
+      <a href="#recomendados">Recomendados</a>
+    </nav>
+  </header>
 
-            <!-- ENCABEZADO -->
-            <header class="topbar">
-
-             <!-- <button class="btn">Hoy</button> -->
-
-                <h1 class="agen">📅 Agenda de Transmisiones JogaRush</h1>
-
-                <button class="btn">Semana</button>
-
-            </header>
-
-
-            <!-- AGENDA -->
-            <section class="agenda">
-
-                <!-- CABECERA DIAS -->
-                <div class="corner"></div>
-                <div class="day">Lun</div>
-                <div class="day">Mar</div>
-                <div class="day">Mié</div>
-                <div class="day">Jue</div>
-                <div class="day">Vie</div>
-                <div class="day">Sab</div>
-
-
-                <!-- HORAS -->
-
-                <div class="hour">2 pm</div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-
-                <div class="hour">3 pm</div>
-                <div class="cell"></div>
-
-                <!-- EVENTO FREE FIRE -->
-                <div class="event freefire"
-                    style="grid-column:2; grid-row:4 / span 2;">
-                    <strong>Free Fire</strong><br>
-                    4:00 PM - 6:00 PM
-                </div>
-
-                
-                <!-- EVENTO ROBLOX -->
-                <div class="event roblox"
-                    style="grid-column:3; grid-row:4 / span 2;">
-                    <strong>Roblox Explorando</strong><br>
-                    4:00 PM - 6:00 PM
-                </div>
-
-                <!-- EVENTO FREE FIRE -->
-                <div class="event freefire"
-                    style="grid-column:4; grid-row:4 / span 2;">
-                    <strong>Free Fire</strong><br>
-                    4:00 PM - 6:00 PM
-                </div>
-
-                <!-- EVENTO ROBLOX -->
-                <div class="event roblox"
-                    style="grid-column:5; grid-row:4 / span 2;">
-                    <strong>Roblox Explorando</strong><br>
-                    4:00 PM - 6:00 PM
-                </div>
-                
-                <!-- EVENTO FREE FIRE -->
-                <div class="event freefire"
-                    style="grid-column:6; grid-row:4 / span 2;">
-                    <strong>Free Fire</strong><br>
-                    4:00 PM - 6:00 PM
-                </div>
-
-                <!-- EVENTO ROBLOX -->
-                <div class="event roblox"
-                    style="grid-column:7; grid-row:4 / span 2;">
-                    <strong>Roblox Explorando</strong><br>
-                    4:00 PM - 6:00 PM
-                </div>
-                
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-
-                <div class="hour">4 pm</div>
-
-                <div class="hour">5 pm</div>
-
-                <div class="hour">6 pm</div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-                <div class="cell"></div>
-
-            </section>
-
-        </div><br>
-        <div class="redes-sociales">
-        Contactanos y siguenos en nuestras redes sociales. <br>
-            Facebook: <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa3pTbWppXzR2cEdZYkg3ZlRiWmJ4YWgtVHlpUXxBQ3Jtc0ttSFZQcHJUQXhFRWZwWmtOOXRBRUZ1bmhWMTBqUGNEeEwxQ0VOVnpxcE4xNGZnUVRPcmhaQ0piWUFsdkdPVklzM3h6Qmp4blJRYThfc05UdklBVUNwTUxPR19ZWlNNdUNKLU4zS1pZR3FzamlHaEMwOA&q=https%3A%2F%2Fwww.facebook.com%2F110477927249043%3Freferrer%3Dwhatsapp" class="facebook" target="_blank">JogaRush</a>
-            <br>
-            Tiktok: <a href="https://www.tiktok.com/@joga_rush" target="_blank" class="tiktok">@joga_rush</a>
-            <br>
-            YouTube: <a href="https://www.youtube.com/@JogaRush" target="_blank" class="youtube">@JogaRush</a>
-            <br><br>
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <span class="eyebrow">JOGARUSH OFICIAL</span>
+        <h1>Tu mundo gamer, ahora también en la web.</h1>
+        <p class="lead">Noticias, Shorts, transmisiones, tips, fútbol, cine & anime y contenido conectado con YouTube, TikTok y Facebook.</p>
+        <div class="actions">
+          <a class="btn primary track-social" data-platform="youtube" href="https://www.youtube.com/@JogaRush" target="_blank" rel="noopener">▶ Ver YouTube</a>
+          <a class="btn secondary" href="#actualidad">Explorar la web</a>
         </div>
-        <h1 class="titulo-terciario">Sobre Nosotros</h1>
-        <h2 class="titulo-cuartario">Somos más que una tienda, somos una comunidad. Creamos contenido gaming original y diseñamos stickers personalizados para que lleves tu pasión a donde vayas. Cada diseño nace de nuestra experiencia como gamers y se convierte en arte que puedes coleccionar.
-        Stickers Personalizados</h2> <br>        
-        <h1 class="titulo-sextiario">Diseños Únicos para Gamers Únicos</h1>
-        <h2 class="titulo-quintario">∙	Stickers de tus juegos favoritos
-        ∙	Diseños personalizados a tu medida <br>
-        ∙	Alta calidad y resistentes al agua <br>
-        ∙	Perfectos para laptops, consolas, celulares y más</h2>
-    </div> <br>
-    <div class="hero1">
-        <h2>*Catalogo de stickers personalizados*
-            <br>
-            <div class="imagen-protegida">
-                <img src="imag/20251220_032439810_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida">
-                <img src="imag/20251220_032539643_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida">
-                <img src="imag/20251220_032439876_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida">
-                <img src="imag/20251220_032439963_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <br><br>
-            *Catalogo de stickers Navideños*
-            <br>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_032439456_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_032439591_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_033940590_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_033940627_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_033940700_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_032439519_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <br><br>
-            *Catalogo de stickers diversas variedades*
-            <br>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_032439379_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_032439220_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_032439660_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_035334046_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_035402373_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_033940561_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_033940664_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-            <div class="imagen-protegida"> 
-                <img src="imag/20251220_034007219_iOS.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-        </h2>
-    </div>
-    <div class="cierre-profesional">
-        <div class="Logoimg">
-            <img src="imag/Logo.png" alt="Imagen de JogaRush" width="20%" draggable="false">
-            </div>
-        <h2>
-            Contenido privado. Prohibida su reproducción total o parcial. <br>
-            © 2024 JOGARUSH. All rights reserved. <br>
-            Pedidos y Cotizaciones<br>
-            <a href="https://wa.me/5215651382032" class="whatsapp-link" target="_blank">WhatsApp: +52 5651 382032</a></p>
-            <p><h4>1.	¿Cómo puedo realizar un pedido?</h4>
-            Puedes contactarnos a través de WhatsApp para realizar tu pedido y recibir una cotización personalizada. <br>
-	        <h4>2.	¿Cuánto tiempo tarda en llegar mi pedido?</h4>
-            El tiempo de entrega varía según la ubicación, pero normalmente procesamos y enviamos en un plazo de 3 a 5 días hábiles. <br>
-	        <h4>3.	¿Ofrecen personalización en los stickers?</h4>
-            Sí, podemos personalizar diseños según tus preferencias. Contáctanos para más detalles. <br>
+        <div class="mini-stats">
+          <div><strong>3</strong><span>Redes conectadas</span></div>
+          <div><strong>6</strong><span>Segmentos</span></div>
+          <div><strong>GA4</strong><span>Analytics activo</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="welcome-video"><video controls autoplay muted loop playsinline><source src="imag/@Bienvenido.mp4" type="video/mp4"></video></div>
+        <p class="caption">Presentación oficial de JogaRush</p>
+      </div>
+    </section>
 
-            <h4>Aviso de Privacidad:</h4>
-            En JOGARUSH, valoramos tu privacidad. <br>
-            No recopilamos información personal sensible, y los datos que compartas con nosotros a través de WhatsApp se utilizan únicamente para atender tus pedidos y consultas. <br>
-            No compartimos tu información con terceros.</p>
-            
-            <p>Versión catálogo 2026</p>
-        </h2>
-    </div>
+    <section class="section" id="actualidad">
+      <div class="section-head"><span class="eyebrow">JOGARUSH HOY</span><h2>Contenido por segmentos</h2><p>La web será otra puerta de entrada para todo lo que ya produces en redes.</p></div>
+      <div class="grid segments">
+        <article class="card"><div class="icon">⚡</div><span class="tag">NEWS</span><h3>Noticias rápidas</h3><p>Gaming, tecnología y tendencias.</p></article>
+        <article class="card"><div class="icon">💡</div><span class="tag">TIPS</span><h3>Antes de comprar</h3><p>Consejos para gastar mejor.</p></article>
+        <article class="card"><div class="icon">⚽</div><span class="tag">FÚTBOL</span><h3>Fútbol</h3><p>Partidos y datos relevantes.</p></article>
+        <article class="card"><div class="icon">🎮</div><span class="tag">GAMING</span><h3>Gaming</h3><p>Fortnite, Roblox, EA FC y más.</p></article>
+        <article class="card"><div class="icon">🍿</div><span class="tag">CINE & ANIME</span><h3>Cine & Anime</h3><p>Estrenos y novedades.</p></article>
+        <article class="card"><div class="icon">🔥</div><span class="tag">EXTRA</span><h3>Extraordinario</h3><p>Temas especiales cuando realmente lo ameriten.</p></article>
+      </div>
+    </section>
+
+    <section class="section platform youtube-bg" id="youtube">
+      <div class="platform-head"><div><span class="platform-label yt">YOUTUBE</span><h2>▶ JogaRush en YouTube</h2><p>Videos destacados reproducibles desde la web.</p></div><a class="btn light track-social" data-platform="youtube" href="https://www.youtube.com/@JogaRush" target="_blank" rel="noopener">Abrir canal</a></div>
+      <div class="video-grid">
+        <article class="embed-card"><div class="ratio"><iframe src="https://www.youtube.com/embed/vXZie6sQhWc?rel=0" title="JogaRush video destacado" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="pad"><span class="tag">DESTACADO</span><h3>JogaRush en vivo y gaming</h3></div></article>
+        <article class="embed-card"><div class="ratio"><iframe src="https://www.youtube.com/embed/_W4nqz-1c84?rel=0" title="JogaRush comunidad y videojuegos" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="pad"><span class="tag">COMUNIDAD</span><h3>Roblox, Fortnite y más</h3></div></article>
+      </div>
+    </section>
+
+    <section class="section platform tiktok-bg" id="tiktok">
+      <div class="platform-head"><div><span class="platform-label tk">TIKTOK</span><h2>♪ JogaRush en TikTok</h2><p>Perfil oficial integrado con acceso a tus publicaciones recientes.</p></div><a class="btn light track-social" data-platform="tiktok" href="https://www.tiktok.com/@joga_rush" target="_blank" rel="noopener">Abrir TikTok</a></div>
+      <div class="social-shell">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@joga_rush" data-unique-id="joga_rush" data-embed-type="creator" style="max-width:760px;min-width:288px;margin:0 auto;"><section><a target="_blank" href="https://www.tiktok.com/@joga_rush?refer=creator_embed">@joga_rush</a></section></blockquote>
+      </div>
+    </section>
+
+    <section class="section platform facebook-bg" id="facebook">
+      <div class="platform-head"><div><span class="platform-label fb">FACEBOOK</span><h2>f JogaRush en Facebook</h2><p>Timeline de la página para mostrar publicaciones directamente en la web.</p></div><a class="btn light track-social" data-platform="facebook" href="https://www.facebook.com/110477927249043" target="_blank" rel="noopener">Abrir Facebook</a></div>
+      <div class="social-shell"><iframe title="Facebook JogaRush" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F110477927249043&tabs=timeline&width=500&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true" width="500" height="650" style="border:none;overflow:hidden;max-width:100%" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" loading="lazy"></iframe></div>
+    </section>
+
+    <section class="section" id="recomendados">
+      <div class="section-head"><span class="eyebrow">JOGARUSH RECOMIENDA</span><h2>🛒 Productos gamer y tecnología</h2><p>Preparado para agregar productos de afiliado cuando los elijamos.</p></div>
+      <div class="affiliate-note"><strong>Aviso:</strong> algunos enlaces podrán ser de afiliado. JogaRush puede recibir comisión sin costo adicional para quien compra.</div>
+      <div class="grid products">
+        <article class="card"><div class="icon">🎧</div><span class="tag">AUDIO</span><h3>Audífonos</h3><p>Selecciones con buena relación calidad/precio.</p><a href="#" class="btn product affiliate-link" data-product="audifonos">Próximamente</a></article>
+        <article class="card"><div class="icon">🎮</div><span class="tag">ACCESORIOS</span><h3>Controles</h3><p>Opciones para PC, consola y móvil.</p><a href="#" class="btn product affiliate-link" data-product="controles">Próximamente</a></article>
+        <article class="card"><div class="icon">💻</div><span class="tag">TECNOLOGÍA</span><h3>Laptops</h3><p>Escuela, trabajo y gaming.</p><a href="#" class="btn product affiliate-link" data-product="laptops">Próximamente</a></article>
+      </div>
+    </section>
+
+    <section class="section compact"><div class="promo"><div><span class="eyebrow">JOGARUSH ORIGINAL</span><h2>✨ Stickers personalizados</h2><p>Conservamos los stickers como una sección secundaria del portal gamer.</p></div><a href="https://wa.me/5215651382032" class="btn whatsapp track-whatsapp" target="_blank" rel="noopener">WhatsApp</a></div></section>
+
+    <section class="section">
+      <div class="section-head"><span class="eyebrow">COMUNIDAD</span><h2>Encuentra JogaRush en todas partes</h2></div>
+      <div class="social-cards">
+        <a class="social-card track-social" data-platform="youtube" href="https://www.youtube.com/@JogaRush" target="_blank" rel="noopener"><b>▶</b><div><strong>YouTube</strong><small>@JogaRush</small></div><span>→</span></a>
+        <a class="social-card track-social" data-platform="tiktok" href="https://www.tiktok.com/@joga_rush" target="_blank" rel="noopener"><b>♪</b><div><strong>TikTok</strong><small>@joga_rush</small></div><span>→</span></a>
+        <a class="social-card track-social" data-platform="facebook" href="https://www.facebook.com/110477927249043" target="_blank" rel="noopener"><b>f</b><div><strong>Facebook</strong><small>JogaRush</small></div><span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section privacy"><details><summary>Aviso de privacidad y medición</summary><p>JogaRush utiliza Google Analytics para conocer estadísticas de uso del sitio, como páginas vistas e interacciones. El contacto se realiza mediante servicios externos como WhatsApp y redes sociales.</p></details></section>
+  </main>
+
+  <footer><img src="imag/Logo.png" alt="JogaRush"><strong>JOGARUSH</strong><p>Gaming · Noticias · Comunidad · Tecnología</p><small>© 2026 JogaRush. Todos los derechos reservados.</small></footer>
+
+  <script src="java/codigo.js"></script>
+  <script async src="https://www.tiktok.com/embed.js"></script>
 </body>
 </html>
