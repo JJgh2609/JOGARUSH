@@ -14,60 +14,30 @@ PLAYLISTS = {
     "cine_anime": "PLbo7JjRu4tCI"
 }
 
-def obtener_todos_items(playlist_id):
-    items = []
-    page_token = None
-
-    while True:
-        params = {
-            "part": "snippet,contentDetails",
-            "playlistId": playlist_id,
-            "maxResults": 50,
-            "key": API_KEY
-        }
-        if page_token:
-            params["pageToken"] = page_token
-
-        url = "https://www.googleapis.com/youtube/v3/playlistItems?" + urllib.parse.urlencode(params)
-
-        with urllib.request.urlopen(url, timeout=30) as response:
-            data = json.load(response)
-
-        items.extend(data.get("items", []))
-        page_token = data.get("nextPageToken")
-
-        if not page_token:
-            break
-
-    return items
-
-def fecha_para_ordenar(item):
-    content = item.get("contentDetails", {})
-    snippet = item.get("snippet", {})
-    return content.get("videoPublishedAt") or snippet.get("publishedAt") or ""
+def obtener_items(playlist_id):
+    params = urllib.parse.urlencode({
+        "part": "snippet,contentDetails",
+        "playlistId": playlist_id,
+        "maxResults": 50,
+        "key": API_KEY
+    })
+    url = f"https://www.googleapis.com/youtube/v3/playlistItems?{params}"
+    with urllib.request.urlopen(url, timeout=30) as response:
+        return json.load(response)
 
 def ultimo_video(playlist_id):
-    items = obtener_todos_items(playlist_id)
-    validos = []
-
-    for item in items:
-        snippet = item.get("snippet", {})
-        content = item.get("contentDetails", {})
-        video_id = content.get("videoId") or snippet.get("resourceId", {}).get("videoId")
-        titulo = snippet.get("title", "")
-
-        if not video_id or titulo in ("Deleted video", "Private video"):
-            continue
-
-        validos.append(item)
-
-    if not validos:
+    data = obtener_items(playlist_id)
+    items = data.get("items", [])
+    if not items:
         return None
 
-    item = max(validos, key=fecha_para_ordenar)
+    item = max(items, key=lambda x: x.get("snippet", {}).get("publishedAt", ""))
+
     snippet = item.get("snippet", {})
     content = item.get("contentDetails", {})
     video_id = content.get("videoId") or snippet.get("resourceId", {}).get("videoId")
+    if not video_id:
+        return None
 
     thumbs = snippet.get("thumbnails", {})
     miniatura = (
