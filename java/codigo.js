@@ -32,8 +32,11 @@ async function cargarShortsJogaRush() {
     try {
 
         const respuesta = await fetch(
-            "data/segmentos.json?v=" + Date.now()
-        );
+        "https://raw.githubusercontent.com/JJgh2609/JOGARUSH/main/data/segmentos.json?t=" + Date.now(),
+            {
+                cache: "no-store"
+            }
+        );  
 
         if (!respuesta.ok) {
             throw new Error("No se pudo leer segmentos.json");
