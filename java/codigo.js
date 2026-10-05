@@ -44,6 +44,8 @@ async function cargarShortsJogaRush() {
 
         const datos = await respuesta.json();
 
+        cargarYoutubeDestacados(datos);
+
         const segmentos = {
             news: "segment-news",
             tips: "segment-tips",
@@ -118,3 +120,42 @@ document.addEventListener(
     "DOMContentLoaded",
     cargarShortsJogaRush
 );
+function cargarYoutubeDestacados(datos) {
+
+    const videos = datos.youtube_destacados;
+
+    if (!Array.isArray(videos) || videos.length === 0) {
+        console.warn("No hay videos destacados disponibles.");
+        return;
+    }
+
+    videos.slice(0, 2).forEach((video, indice) => {
+
+        const numero = indice + 1;
+
+        const iframe = document.getElementById(
+            `youtube-video-${numero}`
+        );
+
+        const titulo = document.getElementById(
+            `youtube-title-${numero}`
+        );
+
+        const etiqueta = document.getElementById(
+            `youtube-label-${numero}`
+        );
+
+        if (!iframe || !titulo || !etiqueta) return;
+
+        iframe.src = video.embed;
+
+        titulo.textContent = video.titulo;
+
+        etiqueta.textContent =
+            video.en_vivo
+                ? "🔴 EN VIVO"
+                : indice === 0
+                    ? "MÁS RECIENTE"
+                    : "RECIENTE";
+    });
+}
