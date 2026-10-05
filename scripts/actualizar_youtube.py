@@ -1,109 +1,102 @@
-import os
-import json
-import urllib.parse
-import urllib.request
-from datetime import datetime, timezone
+    ids = obtener_ids_uploads(uploads_playlist, max_paginas=4)
+    videos = obtener_detalles_videos(ids)
 
-API_KEY = os.environ["YOUTUBE_API_KEY"]
+    en_vivo = []
+    videos_largos = []
 
-PLAYLISTS = {
-    "news": "PLfFb-ddywg-c",
-    "tips": "PLUXoJshp-aP0",
-    "futbol": "PLaPVD_LX9Q-w",
-    "gaming": "PLSkijo2yWyuw",
-    "cine_anime": "PLbo7JjRu4tCI"
-}
-
-def obtener_todos_items(playlist_id):
-    items = []
-    page_token = None
-
-    while True:
-        params = {
-            "part": "snippet,contentDetails",
-            "playlistId": playlist_id,
-            "maxResults": 50,
-            "key": API_KEY
-        }
-        if page_token:
-            params["pageToken"] = page_token
-
-        url = "https://www.googleapis.com/youtube/v3/playlistItems?" + urllib.parse.urlencode(params)
-
-        with urllib.request.urlopen(url, timeout=30) as response:
-            data = json.load(response)
-
-        items.extend(data.get("items", []))
-        page_token = data.get("nextPageToken")
-
-        if not page_token:
-            break
-
-    return items
-
-def fecha_para_ordenar(item):
-    content = item.get("contentDetails", {})
-    snippet = item.get("snippet", {})
-    return content.get("videoPublishedAt") or snippet.get("publishedAt") or ""
-
-def ultimo_video(playlist_id):
-    items = obtener_todos_items(playlist_id)
-    validos = []
-
-    for item in items:
+    for item in videos:
         snippet = item.get("snippet", {})
         content = item.get("contentDetails", {})
-        video_id = content.get("videoId") or snippet.get("resourceId", {}).get("videoId")
-        titulo = snippet.get("title", "")
+        status = item.get("status", {})
 
-        if not video_id or titulo in ("Deleted video", "Private video"):
+        if status.get("privacyStatus") != "public":
             continue
 
-        validos.append(item)
+        estado_live = snippet.get("liveBroadcastContent", "none")
 
-    if not validos:
-        return None
+        # No mostramos directos programados que aún no empiezan.
+        if estado_live == "upcoming":
+            continue
 
-    item = max(validos, key=fecha_para_ordenar)
-    snippet = item.get("snippet", {})
-    content = item.get("contentDetails", {})
-    video_id = content.get("videoId") or snippet.get("resourceId", {}).get("videoId")
+        if estado_live == "live":
+            en_vivo.append(item)
+            continue
 
-    thumbs = snippet.get("thumbnails", {})
-    miniatura = (
-        thumbs.get("maxres", {}).get("url")
-        or thumbs.get("standard", {}).get("url")
-        or thumbs.get("high", {}).get("url")
-        or thumbs.get("medium", {}).get("url")
-        or thumbs.get("default", {}).get("url")
-        or f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
-    )
+        segundos = duracion_a_segundos(content.get("duration", ""))
 
-    return {
-        "titulo": snippet.get("title", ""),
-        "videoId": video_id,
-        "url": f"https://www.youtube.com/shorts/{video_id}",
-        "miniatura": miniatura,
-        "fecha_playlist": snippet.get("publishedAt", ""),
-        "fecha_video": content.get("videoPublishedAt", "")
-    }
+        # Evita que los Shorts vuelvan a aparecer aquí.
+        if segundos > 180:
+            videos_largos.append(item)
+
+    clave_fecha = lambda item: item.get("snippet", {}).get("publishedAt", "")
+
+    en_vivo.sort(key=clave_fecha, reverse=True)
+    videos_largos.sort(key=clave_fecha, reverse=True)
+
+    seleccion = (en_vivo + videos_largos)[:2]
+
+    return [convertir_video_destacado(v) for v in seleccion]
+
+
+# =========================================================
+# GENERAR JSON
+# =========================================================
 
 resultado = {}
 
 for segmento, playlist_id in PLAYLISTS.items():
     try:
-        resultado[segmento] = ultimo_video(playlist_id)
-        print(f"{segmento}: OK")
+        resultado[segmento] = ultimo_video_playlist(playlist_id)
+
+        if resultado[segmento]:
+            print(
+                f"{segmento}: OK -> "
+                f"{resultado[segmento]['titulo']}"
+            )
+        else:
+            print(f"{segmento}: SIN VIDEOS")
+
     except Exception as e:
         print(f"{segmento}: ERROR -> {e}")
+
         resultado[segmento] = {
             "error": str(e),
             "playlistId": playlist_id
         }
 
-resultado["_actualizado"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+try:
+    resultado["youtube_destacados"] = obtener_destacados_canal()
+
+    print(
+        "youtube_destacados: "
+        f"{len(resultado['youtube_destacados'])} encontrados"
+    )
+
+    for video in resultado["youtube_destacados"]:
+        estado = "EN VIVO" if video["en_vivo"] else "VIDEO"
+        print(f"  {estado}: {video['titulo']}")
+
+except Exception as e:
+    print(f"youtube_destacados: ERROR -> {e}")
+
+    resultado["youtube_destacados"] = {
+        "error": str(e)
+    }
+
+
+resultado["_actualizado"] = datetime.now(
+    timezone.utc
+).isoformat(timespec="seconds")
+
 
 with open("data/segmentos.json", "w", encoding="utf-8") as f:
-    json.dump(resultado, f, ensure_ascii=False, indent=2)
+    json.dump(
+        resultado,
+        f,
+        ensure_ascii=False,
+        indent=2
+    )
+
 
 print("data/segmentos.json actualizado.")
