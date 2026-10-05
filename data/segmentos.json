@@ -39,5 +39,25 @@
     "fecha_playlist": "2026-10-01T01:54:39Z",
     "fecha_video": "2026-10-01T02:30:20Z"
   },
-  "_actualizado": "2026-10-05T00:31:54+00:00"
+  "youtube_destacados": [
+    {
+      "titulo": "🔴 ROBLOX EN VIVO 🎮 | TRADES manda Mensaje en el chat | Retos, risas y locuras con JOGARUSH",
+      "videoId": "4kAv8IC6BKY",
+      "url": "https://www.youtube.com/watch?v=4kAv8IC6BKY",
+      "embed": "https://www.youtube.com/embed/4kAv8IC6BKY?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/4kAv8IC6BKY/maxresdefault.jpg",
+      "fecha_video": "2026-10-04T11:57:26Z",
+      "en_vivo": false
+    },
+    {
+      "titulo": "Risas aseguradas en Roblox: ¿Qué podría salir mal? 😂 #2 #suscribe  #suscribete",
+      "videoId": "OisbZqSdl7k",
+      "url": "https://www.youtube.com/watch?v=OisbZqSdl7k",
+      "embed": "https://www.youtube.com/embed/OisbZqSdl7k?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/OisbZqSdl7k/maxresdefault.jpg",
+      "fecha_video": "2026-10-03T15:00:46Z",
+      "en_vivo": false
+    }
+  ],
+  "_actualizado": "2026-10-05T00:52:28+00:00"
 }
