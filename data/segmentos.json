@@ -41,6 +41,15 @@
   },
   "youtube_destacados": [
     {
+      "titulo": "😱 ¡ROBA UN BRAINROT SE VOLVIÓ UNA LOCURA! 🔥 Gameplay de HOY | JOGARUSH",
+      "videoId": "VT5yxGMeH94",
+      "url": "https://www.youtube.com/watch?v=VT5yxGMeH94",
+      "embed": "https://www.youtube.com/embed/VT5yxGMeH94?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/VT5yxGMeH94/maxresdefault.jpg",
+      "fecha_video": "2026-10-07T00:25:09Z",
+      "en_vivo": false
+    },
+    {
       "titulo": "🔴 ROBLOX EN VIVO 🎮 | TRADES manda Mensaje en el chat | Retos, risas y locuras con JOGARUSH",
       "videoId": "4kAv8IC6BKY",
       "url": "https://www.youtube.com/watch?v=4kAv8IC6BKY",
@@ -48,16 +57,7 @@
       "miniatura": "https://i.ytimg.com/vi/4kAv8IC6BKY/maxresdefault.jpg",
       "fecha_video": "2026-10-04T11:57:26Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "Risas aseguradas en Roblox: ¿Qué podría salir mal? 😂 #2 #suscribe  #suscribete",
-      "videoId": "OisbZqSdl7k",
-      "url": "https://www.youtube.com/watch?v=OisbZqSdl7k",
-      "embed": "https://www.youtube.com/embed/OisbZqSdl7k?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/OisbZqSdl7k/maxresdefault.jpg",
-      "fecha_video": "2026-10-03T15:00:46Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-10-06T22:38:50+00:00"
+  "_actualizado": "2026-10-07T05:56:32+00:00"
 }
