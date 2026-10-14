@@ -1,11 +1,11 @@
 {
   "news": {
-    "titulo": "😱 ¡PS5 HACKEADA! Ya puede ejecutar juegos de PS2 🎮🔥 #Shorts",
-    "videoId": "kjFlJDSQsaI",
-    "url": "https://www.youtube.com/shorts/kjFlJDSQsaI",
-    "miniatura": "https://i.ytimg.com/vi/kjFlJDSQsaI/maxresdefault.jpg",
-    "fecha_playlist": "2026-10-13T15:27:37Z",
-    "fecha_video": "2026-10-13T15:35:45Z"
+    "titulo": "🤯 Gemini 4 Argon quiere hacer las tareas por ti",
+    "videoId": "OS42D2P2TPE",
+    "url": "https://www.youtube.com/shorts/OS42D2P2TPE",
+    "miniatura": "https://i.ytimg.com/vi/OS42D2P2TPE/maxresdefault.jpg",
+    "fecha_playlist": "2026-10-14T15:42:19Z",
+    "fecha_video": "2026-10-14T15:51:27Z"
   },
   "tips": {
     "titulo": "😱 ¡El botón SECRETO de tu control PS5! 🎮🔥 #Shorts",
@@ -41,6 +41,15 @@
   },
   "youtube_destacados": [
     {
+      "titulo": "🔴 FORNITE EN VIVO 🎮 | Retos, risas y locuras con JOGARUSH 1",
+      "videoId": "4yvhzvNPLbI",
+      "url": "https://www.youtube.com/watch?v=4yvhzvNPLbI",
+      "embed": "https://www.youtube.com/embed/4yvhzvNPLbI?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/4yvhzvNPLbI/maxresdefault.jpg",
+      "fecha_video": "2026-10-14T16:12:44Z",
+      "en_vivo": false
+    },
+    {
       "titulo": "😱 ¡ROBA UN BRAINROT SE VOLVIÓ UNA LOCURA! 🔥 Gameplay de HOY | JOGARUSH",
       "videoId": "VT5yxGMeH94",
       "url": "https://www.youtube.com/watch?v=VT5yxGMeH94",
@@ -48,16 +57,7 @@
       "miniatura": "https://i.ytimg.com/vi/VT5yxGMeH94/maxresdefault.jpg",
       "fecha_video": "2026-10-07T00:25:09Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 ROBLOX EN VIVO 🎮 | TRADES manda Mensaje en el chat | Retos, risas y locuras con JOGARUSH",
-      "videoId": "4kAv8IC6BKY",
-      "url": "https://www.youtube.com/watch?v=4kAv8IC6BKY",
-      "embed": "https://www.youtube.com/embed/4kAv8IC6BKY?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/4kAv8IC6BKY/maxresdefault.jpg",
-      "fecha_video": "2026-10-04T11:57:26Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-10-14T11:48:44+00:00"
+  "_actualizado": "2026-10-14T17:08:12+00:00"
 }
