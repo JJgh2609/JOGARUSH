@@ -41,6 +41,15 @@
   },
   "youtube_destacados": [
     {
+      "titulo": "🔴 ROBLOX EN VIVO 🎮 | PASILLO DE LAS LANGOSTAS ☠️💀| Retos, risas y locuras con JOGARUSH 3",
+      "videoId": "bxhUrIOYPvw",
+      "url": "https://www.youtube.com/watch?v=bxhUrIOYPvw",
+      "embed": "https://www.youtube.com/embed/bxhUrIOYPvw?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/bxhUrIOYPvw/maxresdefault.jpg",
+      "fecha_video": "2026-10-25T17:39:46Z",
+      "en_vivo": false
+    },
+    {
       "titulo": "🔴 ROBLOX EN VIVO 🎮 | TRADES manda Mensaje en el chat | Retos, risas y locuras con JOGARUSH 2",
       "videoId": "tJGwYYDrfaE",
       "url": "https://www.youtube.com/watch?v=tJGwYYDrfaE",
@@ -48,16 +57,7 @@
       "miniatura": "https://i.ytimg.com/vi/tJGwYYDrfaE/maxresdefault.jpg",
       "fecha_video": "2026-10-25T08:31:15Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 ROBLOX EN VIVO 🎮 | PASILLO DE LAS LANGOSTAS ☠️💀| Retos, risas y locuras con JOGARUSH 3",
-      "videoId": "bxhUrIOYPvw",
-      "url": "https://www.youtube.com/watch?v=bxhUrIOYPvw",
-      "embed": "https://www.youtube.com/embed/bxhUrIOYPvw?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/bxhUrIOYPvw/maxresdefault.jpg?v=6add1807",
-      "fecha_video": "2026-10-24T20:41:43Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-10-25T16:14:05+00:00"
+  "_actualizado": "2026-10-25T20:48:40+00:00"
 }
