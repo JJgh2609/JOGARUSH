@@ -8,12 +8,12 @@
     "fecha_video": "2026-10-26T23:00:15Z"
   },
   "tips": {
-    "titulo": "😱 ¿TIENES INTERNET RÁPIDO y AÚN TIENES LAG? 🎮 ¡Descubre por qué! #Shorts",
-    "videoId": "Clr-_ZhpGw8",
-    "url": "https://www.youtube.com/shorts/Clr-_ZhpGw8",
-    "miniatura": "https://i.ytimg.com/vi/Clr-_ZhpGw8/maxresdefault.jpg",
-    "fecha_playlist": "2026-10-23T18:40:43Z",
-    "fecha_video": "2026-10-23T18:43:30Z"
+    "titulo": "😱 ¿TU LAPTOP GAMER PIERDE FPS AL DESCONECTARLA? 🎮 ¡Descubre por qué! #Shorts",
+    "videoId": "WpmsH-x-YFU",
+    "url": "https://www.youtube.com/shorts/WpmsH-x-YFU",
+    "miniatura": "https://i.ytimg.com/vi/WpmsH-x-YFU/maxresdefault.jpg",
+    "fecha_playlist": "2026-10-27T20:48:55Z",
+    "fecha_video": "2026-10-27T20:57:21Z"
   },
   "futbol": {
     "titulo": "🔥 ¡AMÉRICA CONTRA TODOS! 😱 Chivas y Cruz Azul amenazan el liderato ⚽ #Shorts",
@@ -41,6 +41,15 @@
   },
   "youtube_destacados": [
     {
+      "titulo": "🔴 ROBLOX EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH 3",
+      "videoId": "M79w6Qu5VCs",
+      "url": "https://www.youtube.com/watch?v=M79w6Qu5VCs",
+      "embed": "https://www.youtube.com/embed/M79w6Qu5VCs?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/M79w6Qu5VCs/maxresdefault.jpg",
+      "fecha_video": "2026-10-27T18:20:00Z",
+      "en_vivo": false
+    },
+    {
       "titulo": "🔴 ROBLOX EN VIVO 🎮 | PASILLO DE LAS LANGOSTAS ☠️💀| Retos, risas y locuras con JOGARUSH 3",
       "videoId": "bxhUrIOYPvw",
       "url": "https://www.youtube.com/watch?v=bxhUrIOYPvw",
@@ -48,16 +57,7 @@
       "miniatura": "https://i.ytimg.com/vi/bxhUrIOYPvw/maxresdefault.jpg",
       "fecha_video": "2026-10-25T17:39:46Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 ROBLOX EN VIVO 🎮 | TRADES manda Mensaje en el chat | Retos, risas y locuras con JOGARUSH 2",
-      "videoId": "tJGwYYDrfaE",
-      "url": "https://www.youtube.com/watch?v=tJGwYYDrfaE",
-      "embed": "https://www.youtube.com/embed/tJGwYYDrfaE?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/tJGwYYDrfaE/maxresdefault.jpg",
-      "fecha_video": "2026-10-25T08:31:15Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-10-27T15:20:09+00:00"
+  "_actualizado": "2026-10-27T22:11:03+00:00"
 }
