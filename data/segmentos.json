@@ -42,22 +42,22 @@
   "youtube_destacados": [
     {
       "titulo": "🔴 ROBLOX EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH 3",
+      "videoId": "-eEgylKEdeY",
+      "url": "https://www.youtube.com/watch?v=-eEgylKEdeY",
+      "embed": "https://www.youtube.com/embed/-eEgylKEdeY?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/-eEgylKEdeY/maxresdefault.jpg",
+      "fecha_video": "2026-10-28T03:54:13Z",
+      "en_vivo": false
+    },
+    {
+      "titulo": "🔴 ROBLOX EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH 3",
       "videoId": "M79w6Qu5VCs",
       "url": "https://www.youtube.com/watch?v=M79w6Qu5VCs",
       "embed": "https://www.youtube.com/embed/M79w6Qu5VCs?rel=0",
       "miniatura": "https://i.ytimg.com/vi/M79w6Qu5VCs/maxresdefault.jpg",
       "fecha_video": "2026-10-27T18:20:00Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 ROBLOX EN VIVO 🎮 | PASILLO DE LAS LANGOSTAS ☠️💀| Retos, risas y locuras con JOGARUSH 3",
-      "videoId": "bxhUrIOYPvw",
-      "url": "https://www.youtube.com/watch?v=bxhUrIOYPvw",
-      "embed": "https://www.youtube.com/embed/bxhUrIOYPvw?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/bxhUrIOYPvw/maxresdefault.jpg",
-      "fecha_video": "2026-10-25T17:39:46Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-10-27T22:11:03+00:00"
+  "_actualizado": "2026-10-28T05:38:38+00:00"
 }
