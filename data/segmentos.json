@@ -41,6 +41,15 @@
   },
   "youtube_destacados": [
     {
+      "titulo": "🔴 FORNITE EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH One 1",
+      "videoId": "lK7MuZdMMjc",
+      "url": "https://www.youtube.com/watch?v=lK7MuZdMMjc",
+      "embed": "https://www.youtube.com/embed/lK7MuZdMMjc?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/lK7MuZdMMjc/maxresdefault.jpg",
+      "fecha_video": "2026-11-07T16:40:55Z",
+      "en_vivo": false
+    },
+    {
       "titulo": "🔴 ROBLOX EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH 5",
       "videoId": "u0Z35Uec_EM",
       "url": "https://www.youtube.com/watch?v=u0Z35Uec_EM",
@@ -48,16 +57,7 @@
       "miniatura": "https://i.ytimg.com/vi/u0Z35Uec_EM/maxresdefault.jpg",
       "fecha_video": "2026-10-31T06:48:18Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 FORNITE EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH One 1",
-      "videoId": "lK7MuZdMMjc",
-      "url": "https://www.youtube.com/watch?v=lK7MuZdMMjc",
-      "embed": "https://www.youtube.com/embed/lK7MuZdMMjc?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/lK7MuZdMMjc/maxresdefault.jpg?v=6ae5897a",
-      "fecha_video": "2026-10-31T06:23:54Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-07T12:56:49+00:00"
+  "_actualizado": "2026-11-07T19:24:46+00:00"
 }
