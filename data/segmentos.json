@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🇲🇽 ¡MÉXICO PIERDE 3-2 ANTE JAMAICA! 😱 ¿QUÉ PASÓ CON EL TRI?",
-    "videoId": "oV6P0z_pNg8",
-    "url": "https://www.youtube.com/shorts/oV6P0z_pNg8",
-    "miniatura": "https://i.ytimg.com/vi/oV6P0z_pNg8/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-15T05:09:27Z",
-    "fecha_video": "2026-11-15T05:12:15Z"
+    "titulo": "😱 ¡MONTERREY FARMEÓ AURA! 🔥 ¡SE METIÓ AL TOP 8! ⚽",
+    "videoId": "d-qPpBWh9vw",
+    "url": "https://www.youtube.com/shorts/d-qPpBWh9vw",
+    "miniatura": "https://i.ytimg.com/vi/d-qPpBWh9vw/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-15T05:48:11Z",
+    "fecha_video": "2026-11-15T12:00:27Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "😱 ¡MONTERREY FARMEÓ AURA! 🔥 ¡SE METIÓ AL TOP 8! ⚽",
+      "videoId": "d-qPpBWh9vw",
+      "url": "https://www.youtube.com/shorts/d-qPpBWh9vw",
+      "miniatura": "https://i.ytimg.com/vi/d-qPpBWh9vw/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-15T05:48:11Z",
+      "fecha_video": "2026-11-15T12:00:27Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/EyWsX_jte9U/maxresdefault.jpg",
       "fecha_playlist": "2026-11-11T04:35:41Z",
       "fecha_video": "2026-11-11T12:00:17Z"
-    },
-    {
-      "segmento": "news",
-      "etiqueta": "NEWS",
-      "titulo": "🚨 ¿LA IA DE WINDOWS 11 ESTÁ CONSUMIENDO TU RAM? 😱💻 ¡REVISA ESTE PROCESO!",
-      "videoId": "huOCsWuxO00",
-      "url": "https://www.youtube.com/shorts/huOCsWuxO00",
-      "miniatura": "https://i.ytimg.com/vi/huOCsWuxO00/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-10T15:35:06Z",
-      "fecha_video": "2026-11-10T20:30:25Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-15T06:25:07+00:00"
+  "_actualizado": "2026-11-15T16:19:37+00:00"
 }
