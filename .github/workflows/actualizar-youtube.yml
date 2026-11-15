@@ -1,7 +1,7 @@
 name: Actualizar Shorts JogaRush
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: "17 */3 * * *"
 
