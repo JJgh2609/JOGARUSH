@@ -16,9 +16,18 @@ PLAYLISTS = {
     "cine_anime": "PLbo7JjRu4tCI"
 }
 
+SEGMENTO_NOMBRES = {
+    "news": "NEWS",
+    "tips": "TIPS",
+    "futbol": "FÚTBOL",
+    "gaming": "GAMING",
+    "cine_anime": "CINE & ANIME"
+}
+
 
 def api_get(recurso, params):
     params["key"] = API_KEY
+
     url = (
         f"https://www.googleapis.com/youtube/v3/{recurso}?"
         + urllib.parse.urlencode(params)
@@ -29,7 +38,7 @@ def api_get(recurso, params):
 
 
 # =========================================================
-# SHORTS POR PROGRAMA
+# PLAYLISTS / SHORTS
 # =========================================================
 
 def obtener_todos_items(playlist_id):
@@ -47,9 +56,11 @@ def obtener_todos_items(playlist_id):
             params["pageToken"] = page_token
 
         data = api_get("playlistItems", params)
+
         items.extend(data.get("items", []))
 
         page_token = data.get("nextPageToken")
+
         if not page_token:
             break
 
@@ -67,34 +78,7 @@ def fecha_para_ordenar(item):
     )
 
 
-def ultimo_video_playlist(playlist_id):
-    items = obtener_todos_items(playlist_id)
-    validos = []
-
-    for item in items:
-        snippet = item.get("snippet", {})
-        content = item.get("contentDetails", {})
-
-        video_id = (
-            content.get("videoId")
-            or snippet.get("resourceId", {}).get("videoId")
-        )
-
-        titulo = snippet.get("title", "")
-
-        if not video_id:
-            continue
-
-        if titulo in ("Deleted video", "Private video"):
-            continue
-
-        validos.append(item)
-
-    if not validos:
-        return None
-
-    item = max(validos, key=fecha_para_ordenar)
-
+def convertir_item_short(item, segmento):
     snippet = item.get("snippet", {})
     content = item.get("contentDetails", {})
 
@@ -102,6 +86,14 @@ def ultimo_video_playlist(playlist_id):
         content.get("videoId")
         or snippet.get("resourceId", {}).get("videoId")
     )
+
+    if not video_id:
+        return None
+
+    titulo = snippet.get("title", "")
+
+    if titulo in ("Deleted video", "Private video"):
+        return None
 
     thumbs = snippet.get("thumbnails", {})
 
@@ -115,7 +107,9 @@ def ultimo_video_playlist(playlist_id):
     )
 
     return {
-        "titulo": snippet.get("title", ""),
+        "segmento": segmento,
+        "etiqueta": SEGMENTO_NOMBRES.get(segmento, segmento.upper()),
+        "titulo": titulo,
         "videoId": video_id,
         "url": f"https://www.youtube.com/shorts/{video_id}",
         "miniatura": miniatura,
@@ -124,12 +118,64 @@ def ultimo_video_playlist(playlist_id):
     }
 
 
+def ultimo_video_playlist(playlist_id, segmento):
+    items = obtener_todos_items(playlist_id)
+
+    validos = []
+
+    for item in items:
+        convertido = convertir_item_short(item, segmento)
+
+        if convertido:
+            validos.append((item, convertido))
+
+    if not validos:
+        return None
+
+    item, convertido = max(
+        validos,
+        key=lambda pareja: fecha_para_ordenar(pareja[0])
+    )
+
+    return convertido
+
+
+def obtener_ultimos_shorts(limite=5):
+    encontrados = {}
+
+    for segmento, playlist_id in PLAYLISTS.items():
+
+        items = obtener_todos_items(playlist_id)
+
+        for item in items:
+
+            convertido = convertir_item_short(item, segmento)
+
+            if not convertido:
+                continue
+
+            video_id = convertido["videoId"]
+
+            # Evitar que el mismo Short aparezca dos veces
+            if video_id not in encontrados:
+                encontrados[video_id] = convertido
+
+
+    videos = list(encontrados.values())
+
+    videos.sort(
+        key=lambda video:
+            video.get("fecha_video")
+            or video.get("fecha_playlist")
+            or "",
+        reverse=True
+    )
+
+    return videos[:limite]
+
+
 # =========================================================
 # VIDEOS / LIVES RECIENTES DEL CANAL
-# Excluye Shorts para no duplicarlos con la sección superior.
-# Shorts de YouTube pueden durar hasta 3 minutos, por eso
-# se consideran "video largo" los contenidos > 180 segundos.
-# Los directos activos siempre se permiten.
 # =========================================================
 
 def duracion_a_segundos(duracion):
@@ -153,6 +199,7 @@ def duracion_a_segundos(duracion):
 
 def obtener_playlist_uploads():
     for handle in (CHANNEL_HANDLE, f"@{CHANNEL_HANDLE}"):
+
         data = api_get(
             "channels",
             {
@@ -180,6 +227,7 @@ def obtener_ids_uploads(playlist_id, max_paginas=4):
     page_token = None
 
     for _ in range(max_paginas):
+
         params = {
             "part": "contentDetails",
             "playlistId": playlist_id,
@@ -192,10 +240,15 @@ def obtener_ids_uploads(playlist_id, max_paginas=4):
         data = api_get("playlistItems", params)
 
         for item in data.get("items", []):
-            video_id = item.get("contentDetails", {}).get("videoId")
+
+            video_id = (
+                item.get("contentDetails", {})
+                .get("videoId")
+            )
 
             if video_id:
                 ids.append(video_id)
+
 
         page_token = data.get("nextPageToken")
 
@@ -209,6 +262,7 @@ def obtener_detalles_videos(video_ids):
     detalles = []
 
     for inicio in range(0, len(video_ids), 50):
+
         lote = video_ids[inicio:inicio + 50]
 
         data = api_get(
@@ -239,7 +293,10 @@ def convertir_video_destacado(item):
         or f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg"
     )
 
-    estado_live = snippet.get("liveBroadcastContent", "none")
+    estado_live = snippet.get(
+        "liveBroadcastContent",
+        "none"
+    )
 
     return {
         "titulo": snippet.get("title", ""),
@@ -254,13 +311,19 @@ def convertir_video_destacado(item):
 
 def obtener_destacados_canal():
     uploads_playlist = obtener_playlist_uploads()
-    ids = obtener_ids_uploads(uploads_playlist, max_paginas=4)
+
+    ids = obtener_ids_uploads(
+        uploads_playlist,
+        max_paginas=4
+    )
+
     videos = obtener_detalles_videos(ids)
 
     en_vivo = []
     videos_largos = []
 
     for item in videos:
+
         snippet = item.get("snippet", {})
         content = item.get("contentDetails", {})
         status = item.get("status", {})
@@ -268,9 +331,11 @@ def obtener_destacados_canal():
         if status.get("privacyStatus") != "public":
             continue
 
-        estado_live = snippet.get("liveBroadcastContent", "none")
+        estado_live = snippet.get(
+            "liveBroadcastContent",
+            "none"
+        )
 
-        # No mostramos directos programados que aún no empiezan.
         if estado_live == "upcoming":
             continue
 
@@ -278,42 +343,65 @@ def obtener_destacados_canal():
             en_vivo.append(item)
             continue
 
-        segundos = duracion_a_segundos(content.get("duration", ""))
+        segundos = duracion_a_segundos(
+            content.get("duration", "")
+        )
 
-        # Evita que los Shorts vuelvan a aparecer aquí.
+        # Los Shorts se quedan en la sección superior
         if segundos > 180:
             videos_largos.append(item)
 
-    clave_fecha = lambda item: item.get("snippet", {}).get("publishedAt", "")
 
-    en_vivo.sort(key=clave_fecha, reverse=True)
-    videos_largos.sort(key=clave_fecha, reverse=True)
+    clave_fecha = lambda item: (
+        item.get("snippet", {})
+        .get("publishedAt", "")
+    )
 
-    seleccion = (en_vivo + videos_largos)[:2]
+    en_vivo.sort(
+        key=clave_fecha,
+        reverse=True
+    )
 
-    return [convertir_video_destacado(v) for v in seleccion]
+    videos_largos.sort(
+        key=clave_fecha,
+        reverse=True
+    )
+
+    seleccion = (
+        en_vivo + videos_largos
+    )[:2]
+
+    return [
+        convertir_video_destacado(v)
+        for v in seleccion
+    ]
 
 
 # =========================================================
-# GENERAR JSON
+# CREAR JSON
 # =========================================================
 
 resultado = {}
 
-for segmento, playlist_id in PLAYLISTS.items():
-    try:
-        resultado[segmento] = ultimo_video_playlist(playlist_id)
 
-        if resultado[segmento]:
-            print(
-                f"{segmento}: OK -> "
-                f"{resultado[segmento]['titulo']}"
-            )
-        else:
-            print(f"{segmento}: SIN VIDEOS")
+# Conservamos también el último Short de cada programa
+for segmento, playlist_id in PLAYLISTS.items():
+
+    try:
+        resultado[segmento] = ultimo_video_playlist(
+            playlist_id,
+            segmento
+        )
+
+        print(
+            f"{segmento}: OK"
+        )
 
     except Exception as e:
-        print(f"{segmento}: ERROR -> {e}")
+
+        print(
+            f"{segmento}: ERROR -> {e}"
+        )
 
         resultado[segmento] = {
             "error": str(e),
@@ -321,20 +409,44 @@ for segmento, playlist_id in PLAYLISTS.items():
         }
 
 
+# NUEVO: LOS 5 SHORTS MÁS RECIENTES
 try:
-    resultado["youtube_destacados"] = obtener_destacados_canal()
+    resultado["ultimos_shorts"] = (
+        obtener_ultimos_shorts(5)
+    )
+
+    print(
+        "ultimos_shorts: "
+        f"{len(resultado['ultimos_shorts'])} encontrados"
+    )
+
+except Exception as e:
+
+    print(
+        f"ultimos_shorts: ERROR -> {e}"
+    )
+
+    resultado["ultimos_shorts"] = {
+        "error": str(e)
+    }
+
+
+# VIDEOS / LIVES RECIENTES
+try:
+    resultado["youtube_destacados"] = (
+        obtener_destacados_canal()
+    )
 
     print(
         "youtube_destacados: "
         f"{len(resultado['youtube_destacados'])} encontrados"
     )
 
-    for video in resultado["youtube_destacados"]:
-        estado = "EN VIVO" if video["en_vivo"] else "VIDEO"
-        print(f"  {estado}: {video['titulo']}")
-
 except Exception as e:
-    print(f"youtube_destacados: ERROR -> {e}")
+
+    print(
+        f"youtube_destacados: ERROR -> {e}"
+    )
 
     resultado["youtube_destacados"] = {
         "error": str(e)
@@ -346,7 +458,12 @@ resultado["_actualizado"] = datetime.now(
 ).isoformat(timespec="seconds")
 
 
-with open("data/segmentos.json", "w", encoding="utf-8") as f:
+with open(
+    "data/segmentos.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
     json.dump(
         resultado,
         f,
@@ -355,4 +472,6 @@ with open("data/segmentos.json", "w", encoding="utf-8") as f:
     )
 
 
-print("data/segmentos.json actualizado.")
+print(
+    "data/segmentos.json actualizado."
+)
