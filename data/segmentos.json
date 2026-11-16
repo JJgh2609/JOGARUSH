@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "😱 ¡MONTERREY FARMEÓ AURA! 🔥 ¡SE METIÓ AL TOP 8! ⚽",
-    "videoId": "d-qPpBWh9vw",
-    "url": "https://www.youtube.com/shorts/d-qPpBWh9vw",
-    "miniatura": "https://i.ytimg.com/vi/d-qPpBWh9vw/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-15T05:48:11Z",
-    "fecha_video": "2026-11-15T12:00:27Z"
+    "titulo": "😱 ¡ASÍ SERÍAN LOS CUARTOS DE FINAL DE LA LIGA MX! 🔥 ¡TODO PUEDE CAMBIAR!",
+    "videoId": "2C_AE5JUZNA",
+    "url": "https://www.youtube.com/shorts/2C_AE5JUZNA",
+    "miniatura": "https://i.ytimg.com/vi/2C_AE5JUZNA/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-15T05:52:19Z",
+    "fecha_video": "2026-11-16T00:00:09Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "😱 ¡ASÍ SERÍAN LOS CUARTOS DE FINAL DE LA LIGA MX! 🔥 ¡TODO PUEDE CAMBIAR!",
+      "videoId": "2C_AE5JUZNA",
+      "url": "https://www.youtube.com/shorts/2C_AE5JUZNA",
+      "miniatura": "https://i.ytimg.com/vi/2C_AE5JUZNA/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-15T05:52:19Z",
+      "fecha_video": "2026-11-16T00:00:09Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/8cUoGjZmOk8/maxresdefault.jpg",
       "fecha_playlist": "2026-11-11T20:08:02Z",
       "fecha_video": "2026-11-11T20:14:06Z"
-    },
-    {
-      "segmento": "gaming",
-      "etiqueta": "GAMING",
-      "titulo": "🔥 ¡Los 28 convocados y la posible alineación! ⚽ 🇲🇽 MÉXICO VS JAMAICA",
-      "videoId": "EyWsX_jte9U",
-      "url": "https://www.youtube.com/shorts/EyWsX_jte9U",
-      "miniatura": "https://i.ytimg.com/vi/EyWsX_jte9U/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-11T04:35:41Z",
-      "fecha_video": "2026-11-11T12:00:17Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-15T22:46:21+00:00"
+  "_actualizado": "2026-11-16T06:23:38+00:00"
 }
