@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "😱 ¡ASÍ SERÍAN LOS CUARTOS DE FINAL DE LA LIGA MX! 🔥 ¡TODO PUEDE CAMBIAR!",
-    "videoId": "2C_AE5JUZNA",
-    "url": "https://www.youtube.com/shorts/2C_AE5JUZNA",
-    "miniatura": "https://i.ytimg.com/vi/2C_AE5JUZNA/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-15T05:52:19Z",
-    "fecha_video": "2026-11-16T00:00:09Z"
+    "titulo": "⚽ ¿Y EL FÚTBOL DÓNDE QUEDÓ? 😱 ¡AMÉRICA VS RED BULLS TERMINÓ EN BRONCA! 🔥 ¡6 EXPULSADOS!",
+    "videoId": "XbJqxWlvGTU",
+    "url": "https://www.youtube.com/shorts/XbJqxWlvGTU",
+    "miniatura": "https://i.ytimg.com/vi/XbJqxWlvGTU/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-16T01:00:29Z",
+    "fecha_video": "2026-11-16T12:00:05Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "⚽ ¿Y EL FÚTBOL DÓNDE QUEDÓ? 😱 ¡AMÉRICA VS RED BULLS TERMINÓ EN BRONCA! 🔥 ¡6 EXPULSADOS!",
+      "videoId": "XbJqxWlvGTU",
+      "url": "https://www.youtube.com/shorts/XbJqxWlvGTU",
+      "miniatura": "https://i.ytimg.com/vi/XbJqxWlvGTU/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-16T01:00:29Z",
+      "fecha_video": "2026-11-16T12:00:05Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/YlC2cxn3WzI/maxresdefault.jpg",
       "fecha_playlist": "2026-11-12T03:49:19Z",
       "fecha_video": "2026-11-12T12:00:37Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🇲🇽 ¡4 PARTIDOS SIN GANAR! 😱 ¿AHORA SÍ, RAFA MÁRQUEZ? ⚽🔥",
-      "videoId": "8cUoGjZmOk8",
-      "url": "https://www.youtube.com/shorts/8cUoGjZmOk8",
-      "miniatura": "https://i.ytimg.com/vi/8cUoGjZmOk8/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-11T20:08:02Z",
-      "fecha_video": "2026-11-11T20:14:06Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-16T06:23:38+00:00"
+  "_actualizado": "2026-11-16T19:33:53+00:00"
 }
