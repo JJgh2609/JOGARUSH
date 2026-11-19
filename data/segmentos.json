@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🇲🇽 ¡MÉXICO GANÓ! 😱 ¿PERO A LOS JUGADORES LA SELECCIÓN LES QUEDA GRANDE?",
-    "videoId": "ev7MLmk7YQE",
-    "url": "https://www.youtube.com/shorts/ev7MLmk7YQE",
-    "miniatura": "https://i.ytimg.com/vi/ev7MLmk7YQE/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-18T05:49:40Z",
-    "fecha_video": "2026-11-18T05:52:41Z"
+    "titulo": "😱 ¡RAFA MOVIÓ 5 PIEZAS! 🇲🇽 ¿Y QUÉ MÁS NECESITAN LOS JUGADORES LES PESA LA CAMISETA DE MÉXICO?",
+    "videoId": "P6SZSh0iEKM",
+    "url": "https://www.youtube.com/shorts/P6SZSh0iEKM",
+    "miniatura": "https://i.ytimg.com/vi/P6SZSh0iEKM/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-18T06:10:04Z",
+    "fecha_video": "2026-11-19T00:00:27Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "😱 ¡RAFA MOVIÓ 5 PIEZAS! 🇲🇽 ¿Y QUÉ MÁS NECESITAN LOS JUGADORES LES PESA LA CAMISETA DE MÉXICO?",
+      "videoId": "P6SZSh0iEKM",
+      "url": "https://www.youtube.com/shorts/P6SZSh0iEKM",
+      "miniatura": "https://i.ytimg.com/vi/P6SZSh0iEKM/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-18T06:10:04Z",
+      "fecha_video": "2026-11-19T00:00:27Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/2C_AE5JUZNA/maxresdefault.jpg",
       "fecha_playlist": "2026-11-15T05:52:19Z",
       "fecha_video": "2026-11-16T00:00:09Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "😱 ¡MONTERREY FARMEÓ AURA! 🔥 ¡SE METIÓ AL TOP 8! ⚽",
-      "videoId": "d-qPpBWh9vw",
-      "url": "https://www.youtube.com/shorts/d-qPpBWh9vw",
-      "miniatura": "https://i.ytimg.com/vi/d-qPpBWh9vw/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-15T05:48:11Z",
-      "fecha_video": "2026-11-15T12:00:27Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-18T20:28:23+00:00"
+  "_actualizado": "2026-11-19T02:32:25+00:00"
 }
