@@ -2,12 +2,12 @@
   "news": {
     "segmento": "news",
     "etiqueta": "NEWS",
-    "titulo": "🚨 ¿LA IA DE WINDOWS 11 ESTÁ CONSUMIENDO TU RAM? 😱💻 ¡REVISA ESTE PROCESO!",
-    "videoId": "huOCsWuxO00",
-    "url": "https://www.youtube.com/shorts/huOCsWuxO00",
-    "miniatura": "https://i.ytimg.com/vi/huOCsWuxO00/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-10T15:35:06Z",
-    "fecha_video": "2026-11-10T20:30:25Z"
+    "titulo": "😱 ¡GTA 6 SE ESTRENA HOY! 🔥 ¡13 AÑOS DE ESPERA TERMINARON! 🎮",
+    "videoId": "ojQrVDL2N4o",
+    "url": "https://www.youtube.com/shorts/ojQrVDL2N4o",
+    "miniatura": "https://i.ytimg.com/vi/ojQrVDL2N4o/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-19T12:22:57Z",
+    "fecha_video": "2026-11-19T12:00:24Z"
   },
   "tips": {
     "segmento": "tips",
@@ -51,6 +51,16 @@
   },
   "ultimos_shorts": [
     {
+      "segmento": "news",
+      "etiqueta": "NEWS",
+      "titulo": "😱 ¡GTA 6 SE ESTRENA HOY! 🔥 ¡13 AÑOS DE ESPERA TERMINARON! 🎮",
+      "videoId": "ojQrVDL2N4o",
+      "url": "https://www.youtube.com/shorts/ojQrVDL2N4o",
+      "miniatura": "https://i.ytimg.com/vi/ojQrVDL2N4o/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-19T12:22:57Z",
+      "fecha_video": "2026-11-19T12:00:24Z"
+    },
+    {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
       "titulo": "😱 ¡RAFA MOVIÓ 5 PIEZAS! 🇲🇽 ¿Y QUÉ MÁS NECESITAN LOS JUGADORES LES PESA LA CAMISETA DE MÉXICO?",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/XbJqxWlvGTU/maxresdefault.jpg",
       "fecha_playlist": "2026-11-16T01:00:29Z",
       "fecha_video": "2026-11-16T12:00:05Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "😱 ¡ASÍ SERÍAN LOS CUARTOS DE FINAL DE LA LIGA MX! 🔥 ¡TODO PUEDE CAMBIAR!",
-      "videoId": "2C_AE5JUZNA",
-      "url": "https://www.youtube.com/shorts/2C_AE5JUZNA",
-      "miniatura": "https://i.ytimg.com/vi/2C_AE5JUZNA/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-15T05:52:19Z",
-      "fecha_video": "2026-11-16T00:00:09Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-19T11:35:05+00:00"
+  "_actualizado": "2026-11-19T20:31:28+00:00"
 }
