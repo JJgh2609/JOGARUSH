@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡ÚLTIMA JORNADA DE LIGA MX! 😱 ¿Quién será LÍDER y quién queda FUERA?",
-    "videoId": "tirtIKrPWOY",
-    "url": "https://www.youtube.com/shorts/tirtIKrPWOY",
-    "miniatura": "https://i.ytimg.com/vi/tirtIKrPWOY/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-19T22:11:13Z",
-    "fecha_video": "2026-11-20T00:00:14Z"
+    "titulo": "🔥 ¡XOLOS SE JUEGA LA LIGUILLA! 😱 ¿Le alcanzará para clasificar? ⚽ #LigaMX",
+    "videoId": "q-CgxEvLDCw",
+    "url": "https://www.youtube.com/shorts/q-CgxEvLDCw",
+    "miniatura": "https://i.ytimg.com/vi/q-CgxEvLDCw/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-20T16:21:41Z",
+    "fecha_video": "2026-11-20T16:25:12Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡XOLOS SE JUEGA LA LIGUILLA! 😱 ¿Le alcanzará para clasificar? ⚽ #LigaMX",
+      "videoId": "q-CgxEvLDCw",
+      "url": "https://www.youtube.com/shorts/q-CgxEvLDCw",
+      "miniatura": "https://i.ytimg.com/vi/q-CgxEvLDCw/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-20T16:21:41Z",
+      "fecha_video": "2026-11-20T16:25:12Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,19 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/ev7MLmk7YQE/maxresdefault.jpg",
       "fecha_playlist": "2026-11-18T05:49:40Z",
       "fecha_video": "2026-11-18T05:52:41Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🇲🇽 ¡RAFA MÁRQUEZ SE JUEGA SU FUTURO! 😱 MÉXICO VS JAMAICA 🔥",
-      "videoId": "rRsARTTw8fY",
-      "url": "https://www.youtube.com/shorts/rRsARTTw8fY",
-      "miniatura": "https://i.ytimg.com/vi/rRsARTTw8fY/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-17T14:14:35Z",
-      "fecha_video": "2026-11-17T14:15:01Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥",
+      "videoId": "lMuqEUEr_9U",
+      "url": "https://www.youtube.com/watch?v=lMuqEUEr_9U",
+      "embed": "https://www.youtube.com/embed/lMuqEUEr_9U?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/lMuqEUEr_9U/maxresdefault.jpg",
+      "fecha_video": "2026-11-20T14:39:43Z",
+      "en_vivo": false
+    },
     {
       "titulo": "🔴 FORNITE EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH OnePice 2",
       "videoId": "pEkgRbX2wYA",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/pEkgRbX2wYA/maxresdefault.jpg",
       "fecha_video": "2026-11-08T02:52:14Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥",
-      "videoId": "lMuqEUEr_9U",
-      "url": "https://www.youtube.com/watch?v=lMuqEUEr_9U",
-      "embed": "https://www.youtube.com/embed/lMuqEUEr_9U?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/lMuqEUEr_9U/maxresdefault.jpg?v=6aefdf56",
-      "fecha_video": "2026-11-08T02:32:54Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-20T11:33:15+00:00"
+  "_actualizado": "2026-11-20T20:11:48+00:00"
 }
