@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "😱 ¡RAFA MOVIÓ 5 PIEZAS! 🇲🇽 ¿Y QUÉ MÁS NECESITAN LOS JUGADORES LES PESA LA CAMISETA DE MÉXICO?",
-    "videoId": "P6SZSh0iEKM",
-    "url": "https://www.youtube.com/shorts/P6SZSh0iEKM",
-    "miniatura": "https://i.ytimg.com/vi/P6SZSh0iEKM/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-18T06:10:04Z",
-    "fecha_video": "2026-11-19T00:00:27Z"
+    "titulo": "🔥 ¡ÚLTIMA JORNADA DE LIGA MX! 😱 ¿Quién será LÍDER y quién queda FUERA?",
+    "videoId": "tirtIKrPWOY",
+    "url": "https://www.youtube.com/shorts/tirtIKrPWOY",
+    "miniatura": "https://i.ytimg.com/vi/tirtIKrPWOY/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-19T22:11:13Z",
+    "fecha_video": "2026-11-20T00:00:14Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡ÚLTIMA JORNADA DE LIGA MX! 😱 ¿Quién será LÍDER y quién queda FUERA?",
+      "videoId": "tirtIKrPWOY",
+      "url": "https://www.youtube.com/shorts/tirtIKrPWOY",
+      "miniatura": "https://i.ytimg.com/vi/tirtIKrPWOY/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-19T22:11:13Z",
+      "fecha_video": "2026-11-20T00:00:14Z"
+    },
     {
       "segmento": "news",
       "etiqueta": "NEWS",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/rRsARTTw8fY/maxresdefault.jpg",
       "fecha_playlist": "2026-11-17T14:14:35Z",
       "fecha_video": "2026-11-17T14:15:01Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "⚽ ¿Y EL FÚTBOL DÓNDE QUEDÓ? 😱 ¡AMÉRICA VS RED BULLS TERMINÓ EN BRONCA! 🔥 ¡6 EXPULSADOS!",
-      "videoId": "XbJqxWlvGTU",
-      "url": "https://www.youtube.com/shorts/XbJqxWlvGTU",
-      "miniatura": "https://i.ytimg.com/vi/XbJqxWlvGTU/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-16T01:00:29Z",
-      "fecha_video": "2026-11-16T12:00:05Z"
     }
   ],
   "youtube_destacados": [
@@ -112,14 +112,14 @@
       "en_vivo": false
     },
     {
-      "titulo": "🔴 FORNITE EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH One 1",
-      "videoId": "lK7MuZdMMjc",
-      "url": "https://www.youtube.com/watch?v=lK7MuZdMMjc",
-      "embed": "https://www.youtube.com/embed/lK7MuZdMMjc?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/lK7MuZdMMjc/maxresdefault.jpg",
-      "fecha_video": "2026-11-07T16:40:55Z",
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥",
+      "videoId": "lMuqEUEr_9U",
+      "url": "https://www.youtube.com/watch?v=lMuqEUEr_9U",
+      "embed": "https://www.youtube.com/embed/lMuqEUEr_9U?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/lMuqEUEr_9U/maxresdefault.jpg?v=6aefdf56",
+      "fecha_video": "2026-11-08T02:32:54Z",
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-19T20:31:28+00:00"
+  "_actualizado": "2026-11-20T02:17:32+00:00"
 }
