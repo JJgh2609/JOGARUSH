@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡XOLOS CAMBIA LA LIGUILLA! 😱 ¿Quién quedará FUERA? ⚽ #LigaMX",
-    "videoId": "4b88Rve1tOU",
-    "url": "https://www.youtube.com/shorts/4b88Rve1tOU",
-    "miniatura": "https://i.ytimg.com/vi/4b88Rve1tOU/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-21T06:12:54Z",
-    "fecha_video": "2026-11-21T06:37:09Z"
+    "titulo": "🔥 ¡LA LIGUILLA ESTÁ EN JUEGO! 😱 ¿Quién entra y quién queda FUERA? ⚽ #LigaMX",
+    "videoId": "js2u8BrI1Qg",
+    "url": "https://www.youtube.com/shorts/js2u8BrI1Qg",
+    "miniatura": "https://i.ytimg.com/vi/js2u8BrI1Qg/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-21T17:44:51Z",
+    "fecha_video": "2026-11-21T17:48:24Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡LA LIGUILLA ESTÁ EN JUEGO! 😱 ¿Quién entra y quién queda FUERA? ⚽ #LigaMX",
+      "videoId": "js2u8BrI1Qg",
+      "url": "https://www.youtube.com/shorts/js2u8BrI1Qg",
+      "miniatura": "https://i.ytimg.com/vi/js2u8BrI1Qg/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-21T17:44:51Z",
+      "fecha_video": "2026-11-21T17:48:24Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,19 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/ojQrVDL2N4o/maxresdefault.jpg",
       "fecha_playlist": "2026-11-19T12:22:57Z",
       "fecha_video": "2026-11-19T12:00:24Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "😱 ¡RAFA MOVIÓ 5 PIEZAS! 🇲🇽 ¿Y QUÉ MÁS NECESITAN LOS JUGADORES LES PESA LA CAMISETA DE MÉXICO?",
-      "videoId": "P6SZSh0iEKM",
-      "url": "https://www.youtube.com/shorts/P6SZSh0iEKM",
-      "miniatura": "https://i.ytimg.com/vi/P6SZSh0iEKM/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-18T06:10:04Z",
-      "fecha_video": "2026-11-19T00:00:27Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥 2",
+      "videoId": "aeM4NzRBxr4",
+      "url": "https://www.youtube.com/watch?v=aeM4NzRBxr4",
+      "embed": "https://www.youtube.com/embed/aeM4NzRBxr4?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/aeM4NzRBxr4/maxresdefault.jpg",
+      "fecha_video": "2026-11-21T18:02:22Z",
+      "en_vivo": false
+    },
     {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥",
       "videoId": "lMuqEUEr_9U",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/lMuqEUEr_9U/maxresdefault.jpg",
       "fecha_video": "2026-11-20T14:39:43Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥 2",
-      "videoId": "aeM4NzRBxr4",
-      "url": "https://www.youtube.com/watch?v=aeM4NzRBxr4",
-      "embed": "https://www.youtube.com/embed/aeM4NzRBxr4?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/aeM4NzRBxr4/maxresdefault.jpg?v=6affacb9",
-      "fecha_video": "2026-11-20T02:13:13Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-21T10:57:31+00:00"
+  "_actualizado": "2026-11-21T19:12:20+00:00"
 }
