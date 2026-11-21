@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡XOLOS SE JUEGA LA LIGUILLA! 😱 ¿Le alcanzará para clasificar? ⚽ #LigaMX",
-    "videoId": "q-CgxEvLDCw",
-    "url": "https://www.youtube.com/shorts/q-CgxEvLDCw",
-    "miniatura": "https://i.ytimg.com/vi/q-CgxEvLDCw/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-20T16:21:41Z",
-    "fecha_video": "2026-11-20T16:25:12Z"
+    "titulo": "🔥 ¡XOLOS CAMBIA LA LIGUILLA! 😱 ¿Quién quedará FUERA? ⚽ #LigaMX",
+    "videoId": "4b88Rve1tOU",
+    "url": "https://www.youtube.com/shorts/4b88Rve1tOU",
+    "miniatura": "https://i.ytimg.com/vi/4b88Rve1tOU/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-21T06:12:54Z",
+    "fecha_video": "2026-11-21T06:37:09Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡XOLOS CAMBIA LA LIGUILLA! 😱 ¿Quién quedará FUERA? ⚽ #LigaMX",
+      "videoId": "4b88Rve1tOU",
+      "url": "https://www.youtube.com/shorts/4b88Rve1tOU",
+      "miniatura": "https://i.ytimg.com/vi/4b88Rve1tOU/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-21T06:12:54Z",
+      "fecha_video": "2026-11-21T06:37:09Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/P6SZSh0iEKM/maxresdefault.jpg",
       "fecha_playlist": "2026-11-18T06:10:04Z",
       "fecha_video": "2026-11-19T00:00:27Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🇲🇽 ¡MÉXICO GANÓ! 😱 ¿PERO A LOS JUGADORES LA SELECCIÓN LES QUEDA GRANDE?",
-      "videoId": "ev7MLmk7YQE",
-      "url": "https://www.youtube.com/shorts/ev7MLmk7YQE",
-      "miniatura": "https://i.ytimg.com/vi/ev7MLmk7YQE/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-18T05:49:40Z",
-      "fecha_video": "2026-11-18T05:52:41Z"
     }
   ],
   "youtube_destacados": [
@@ -112,14 +112,14 @@
       "en_vivo": false
     },
     {
-      "titulo": "🔴 FORNITE EN VIVO 🎮 | 😇 | Retos, risas y locuras con JOGARUSH OnePice 2",
-      "videoId": "pEkgRbX2wYA",
-      "url": "https://www.youtube.com/watch?v=pEkgRbX2wYA",
-      "embed": "https://www.youtube.com/embed/pEkgRbX2wYA?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/pEkgRbX2wYA/maxresdefault.jpg",
-      "fecha_video": "2026-11-08T02:52:14Z",
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥 2",
+      "videoId": "aeM4NzRBxr4",
+      "url": "https://www.youtube.com/watch?v=aeM4NzRBxr4",
+      "embed": "https://www.youtube.com/embed/aeM4NzRBxr4?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/aeM4NzRBxr4/maxresdefault.jpg?v=6affacb9",
+      "fecha_video": "2026-11-20T02:13:13Z",
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-21T02:11:39+00:00"
+  "_actualizado": "2026-11-21T10:57:31+00:00"
 }
