@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡LA LIGUILLA ESTÁ EN JUEGO! 😱 ¿Quién entra y quién queda FUERA? ⚽ #LigaMX",
-    "videoId": "js2u8BrI1Qg",
-    "url": "https://www.youtube.com/shorts/js2u8BrI1Qg",
-    "miniatura": "https://i.ytimg.com/vi/js2u8BrI1Qg/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-21T17:44:51Z",
-    "fecha_video": "2026-11-21T17:48:24Z"
+    "titulo": "😱 ¡AMÉRICA CAE ANTE TIGRES! 🔥 ¿Quién será CAMPEÓN de la Liga MX? ⚽",
+    "videoId": "hnnRzprl0RE",
+    "url": "https://www.youtube.com/shorts/hnnRzprl0RE",
+    "miniatura": "https://i.ytimg.com/vi/hnnRzprl0RE/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-22T05:45:45Z",
+    "fecha_video": "2026-11-22T05:52:00Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "😱 ¡AMÉRICA CAE ANTE TIGRES! 🔥 ¿Quién será CAMPEÓN de la Liga MX? ⚽",
+      "videoId": "hnnRzprl0RE",
+      "url": "https://www.youtube.com/shorts/hnnRzprl0RE",
+      "miniatura": "https://i.ytimg.com/vi/hnnRzprl0RE/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-22T05:45:45Z",
+      "fecha_video": "2026-11-22T05:52:00Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,19 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/tirtIKrPWOY/maxresdefault.jpg",
       "fecha_playlist": "2026-11-19T22:11:13Z",
       "fecha_video": "2026-11-20T00:00:14Z"
-    },
-    {
-      "segmento": "news",
-      "etiqueta": "NEWS",
-      "titulo": "😱 ¡GTA 6 SE ESTRENA HOY! 🔥 ¡13 AÑOS DE ESPERA TERMINARON! 🎮",
-      "videoId": "ojQrVDL2N4o",
-      "url": "https://www.youtube.com/shorts/ojQrVDL2N4o",
-      "miniatura": "https://i.ytimg.com/vi/ojQrVDL2N4o/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-19T12:22:57Z",
-      "fecha_video": "2026-11-19T12:00:24Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 EVENTO EN STEAL A BRAINROT 🧠 | ¿QUÉ NOS TOCARÁ HOY? 🔥 #01",
+      "videoId": "oKYEjAervNo",
+      "url": "https://www.youtube.com/watch?v=oKYEjAervNo",
+      "embed": "https://www.youtube.com/embed/oKYEjAervNo?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/oKYEjAervNo/maxresdefault.jpg",
+      "fecha_video": "2026-11-22T10:35:36Z",
+      "en_vivo": false
+    },
     {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥 2",
       "videoId": "aeM4NzRBxr4",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/aeM4NzRBxr4/maxresdefault.jpg",
       "fecha_video": "2026-11-21T18:02:22Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 EVENTO EN STEAL A BRAINROT 🧠 | ¿QUÉ NOS TOCARÁ HOY? 🔥 #01",
-      "videoId": "oKYEjAervNo",
-      "url": "https://www.youtube.com/watch?v=oKYEjAervNo",
-      "embed": "https://www.youtube.com/embed/oKYEjAervNo?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/oKYEjAervNo/maxresdefault.jpg?v=6b01e834",
-      "fecha_video": "2026-11-21T04:17:48Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-22T01:16:18+00:00"
+  "_actualizado": "2026-11-22T11:17:33+00:00"
 }
