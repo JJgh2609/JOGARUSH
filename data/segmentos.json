@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡CHIVAS VS CRUZ AZUL POR EL LIDERATO! 😱 ¿Quién terminará primero? ⚽ #LigaMX",
-    "videoId": "Dxb-sm6uosc",
-    "url": "https://www.youtube.com/shorts/Dxb-sm6uosc",
-    "miniatura": "https://i.ytimg.com/vi/Dxb-sm6uosc/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-22T06:11:01Z",
-    "fecha_video": "2026-11-22T18:00:30Z"
+    "titulo": "🔥 ¡CHIVAS ES LÍDER! 🏆 Así quedó la LIGUILLA 2026 😱 ¿Quién avanzará? #LigaMX",
+    "videoId": "CtQ35K-ppW4",
+    "url": "https://www.youtube.com/shorts/CtQ35K-ppW4",
+    "miniatura": "https://i.ytimg.com/vi/CtQ35K-ppW4/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-23T01:30:01Z",
+    "fecha_video": "2026-11-23T01:33:23Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡CHIVAS ES LÍDER! 🏆 Así quedó la LIGUILLA 2026 😱 ¿Quién avanzará? #LigaMX",
+      "videoId": "CtQ35K-ppW4",
+      "url": "https://www.youtube.com/shorts/CtQ35K-ppW4",
+      "miniatura": "https://i.ytimg.com/vi/CtQ35K-ppW4/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-23T01:30:01Z",
+      "fecha_video": "2026-11-23T01:33:23Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/4b88Rve1tOU/maxresdefault.jpg",
       "fecha_playlist": "2026-11-21T06:12:54Z",
       "fecha_video": "2026-11-21T06:37:09Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡XOLOS SE JUEGA LA LIGUILLA! 😱 ¿Le alcanzará para clasificar? ⚽ #LigaMX",
-      "videoId": "q-CgxEvLDCw",
-      "url": "https://www.youtube.com/shorts/q-CgxEvLDCw",
-      "miniatura": "https://i.ytimg.com/vi/q-CgxEvLDCw/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-20T16:21:41Z",
-      "fecha_video": "2026-11-20T16:25:12Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-22T19:34:49+00:00"
+  "_actualizado": "2026-11-23T01:39:58+00:00"
 }
