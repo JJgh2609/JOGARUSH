@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡CHIVAS ES LÍDER! 🏆 Así quedó la LIGUILLA 2026 😱 ¿Quién avanzará? #LigaMX",
-    "videoId": "CtQ35K-ppW4",
-    "url": "https://www.youtube.com/shorts/CtQ35K-ppW4",
-    "miniatura": "https://i.ytimg.com/vi/CtQ35K-ppW4/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-23T01:30:01Z",
-    "fecha_video": "2026-11-23T01:33:23Z"
+    "titulo": "😱 ¡CUIDADO CHIVAS! 🔥 ¿Se repetirá la HISTORIA en la LIGUILLA? ⚽ #LigaMX",
+    "videoId": "wg2wUQU7EiA",
+    "url": "https://www.youtube.com/shorts/wg2wUQU7EiA",
+    "miniatura": "https://i.ytimg.com/vi/wg2wUQU7EiA/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-24T01:25:12Z",
+    "fecha_video": "2026-11-24T01:28:12Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,26 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "😱 ¡CUIDADO CHIVAS! 🔥 ¿Se repetirá la HISTORIA en la LIGUILLA? ⚽ #LigaMX",
+      "videoId": "wg2wUQU7EiA",
+      "url": "https://www.youtube.com/shorts/wg2wUQU7EiA",
+      "miniatura": "https://i.ytimg.com/vi/wg2wUQU7EiA/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-24T01:25:12Z",
+      "fecha_video": "2026-11-24T01:28:12Z"
+    },
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡ARRANCA LA LIGUILLA 2026! ⚽ Horarios de IDA y equipos bajo presión 😱 #LigaMX",
+      "videoId": "u7wzV1Pt1Jo",
+      "url": "https://www.youtube.com/shorts/u7wzV1Pt1Jo",
+      "miniatura": "https://i.ytimg.com/vi/u7wzV1Pt1Jo/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-23T20:35:23Z",
+      "fecha_video": "2026-11-23T20:35:44Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -79,29 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/hnnRzprl0RE/maxresdefault.jpg",
       "fecha_playlist": "2026-11-22T05:45:45Z",
       "fecha_video": "2026-11-22T05:52:00Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡LA LIGUILLA ESTÁ EN JUEGO! 😱 ¿Quién entra y quién queda FUERA? ⚽ #LigaMX",
-      "videoId": "js2u8BrI1Qg",
-      "url": "https://www.youtube.com/shorts/js2u8BrI1Qg",
-      "miniatura": "https://i.ytimg.com/vi/js2u8BrI1Qg/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-21T17:44:51Z",
-      "fecha_video": "2026-11-21T17:48:24Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡XOLOS CAMBIA LA LIGUILLA! 😱 ¿Quién quedará FUERA? ⚽ #LigaMX",
-      "videoId": "4b88Rve1tOU",
-      "url": "https://www.youtube.com/shorts/4b88Rve1tOU",
-      "miniatura": "https://i.ytimg.com/vi/4b88Rve1tOU/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-21T06:12:54Z",
-      "fecha_video": "2026-11-21T06:37:09Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO?",
+      "videoId": "KwKGp6sPzPo",
+      "url": "https://www.youtube.com/watch?v=KwKGp6sPzPo",
+      "embed": "https://www.youtube.com/embed/KwKGp6sPzPo?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/KwKGp6sPzPo/maxresdefault.jpg?v=6b021472",
+      "fecha_video": "2026-11-21T22:00:18Z",
+      "en_vivo": true
+    },
     {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 EVENTO EN STEAL A BRAINROT 🧠 | ¿QUÉ NOS TOCARÁ HOY? 🔥 #01",
       "videoId": "oKYEjAervNo",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/oKYEjAervNo/maxresdefault.jpg",
       "fecha_video": "2026-11-22T10:35:36Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🎮 ¡VOLVIMOS A LOS TRADES! 😱 ¿GANAMOS AURA O NOS ESTAFAN? 🔥 2",
-      "videoId": "aeM4NzRBxr4",
-      "url": "https://www.youtube.com/watch?v=aeM4NzRBxr4",
-      "embed": "https://www.youtube.com/embed/aeM4NzRBxr4?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/aeM4NzRBxr4/maxresdefault.jpg",
-      "fecha_video": "2026-11-21T18:02:22Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-23T12:31:00+00:00"
+  "_actualizado": "2026-11-24T02:10:53+00:00"
 }
