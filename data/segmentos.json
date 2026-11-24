@@ -103,15 +103,6 @@
   ],
   "youtube_destacados": [
     {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO?",
-      "videoId": "KwKGp6sPzPo",
-      "url": "https://www.youtube.com/watch?v=KwKGp6sPzPo",
-      "embed": "https://www.youtube.com/embed/KwKGp6sPzPo?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/KwKGp6sPzPo/maxresdefault.jpg?v=6b021472",
-      "fecha_video": "2026-11-21T22:00:18Z",
-      "en_vivo": true
-    },
-    {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 EVENTO EN STEAL A BRAINROT 🧠 | ¿QUÉ NOS TOCARÁ HOY? 🔥 #01",
       "videoId": "oKYEjAervNo",
       "url": "https://www.youtube.com/watch?v=oKYEjAervNo",
@@ -119,7 +110,16 @@
       "miniatura": "https://i.ytimg.com/vi/oKYEjAervNo/maxresdefault.jpg",
       "fecha_video": "2026-11-22T10:35:36Z",
       "en_vivo": false
+    },
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO?",
+      "videoId": "KwKGp6sPzPo",
+      "url": "https://www.youtube.com/watch?v=KwKGp6sPzPo",
+      "embed": "https://www.youtube.com/embed/KwKGp6sPzPo?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/KwKGp6sPzPo/maxresdefault.jpg?v=6b0528b9",
+      "fecha_video": "2026-11-21T22:00:18Z",
+      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-24T02:10:53+00:00"
+  "_actualizado": "2026-11-24T13:38:48+00:00"
 }
