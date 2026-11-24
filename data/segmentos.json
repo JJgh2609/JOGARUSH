@@ -22,22 +22,22 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "😱 ¡CUIDADO CHIVAS! 🔥 ¿Se repetirá la HISTORIA en la LIGUILLA? ⚽ #LigaMX",
-    "videoId": "wg2wUQU7EiA",
-    "url": "https://www.youtube.com/shorts/wg2wUQU7EiA",
-    "miniatura": "https://i.ytimg.com/vi/wg2wUQU7EiA/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-24T01:25:12Z",
-    "fecha_video": "2026-11-24T01:28:12Z"
+    "titulo": "🔥 ¡REAL MADRID FARMEÓ +9999 DE AURA! 😱 De perder 0-1 a GOLEAR 5-1 al PSV ⚽",
+    "videoId": "N2aHU3Z1oBU",
+    "url": "https://www.youtube.com/shorts/N2aHU3Z1oBU",
+    "miniatura": "https://i.ytimg.com/vi/N2aHU3Z1oBU/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-24T22:23:36Z",
+    "fecha_video": "2026-11-24T22:27:38Z"
   },
   "gaming": {
     "segmento": "gaming",
     "etiqueta": "GAMING",
-    "titulo": "🔥 ¡Los 28 convocados y la posible alineación! ⚽ 🇲🇽 MÉXICO VS JAMAICA",
-    "videoId": "EyWsX_jte9U",
-    "url": "https://www.youtube.com/shorts/EyWsX_jte9U",
-    "miniatura": "https://i.ytimg.com/vi/EyWsX_jte9U/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-11T04:35:41Z",
-    "fecha_video": "2026-11-11T12:00:17Z"
+    "titulo": "😱 ¡GTA VI ROMPIÓ PLAYSTATION! 🔥 39 MILLONES en solo 4 DÍAS 🎮 #GTAVI",
+    "videoId": "OLU8L_iR-c0",
+    "url": "https://www.youtube.com/shorts/OLU8L_iR-c0",
+    "miniatura": "https://i.ytimg.com/vi/OLU8L_iR-c0/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-24T19:08:38Z",
+    "fecha_video": "2026-11-24T19:14:19Z"
   },
   "cine_anime": {
     "segmento": "cine_anime",
@@ -50,6 +50,26 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡REAL MADRID FARMEÓ +9999 DE AURA! 😱 De perder 0-1 a GOLEAR 5-1 al PSV ⚽",
+      "videoId": "N2aHU3Z1oBU",
+      "url": "https://www.youtube.com/shorts/N2aHU3Z1oBU",
+      "miniatura": "https://i.ytimg.com/vi/N2aHU3Z1oBU/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-24T22:23:36Z",
+      "fecha_video": "2026-11-24T22:27:38Z"
+    },
+    {
+      "segmento": "gaming",
+      "etiqueta": "GAMING",
+      "titulo": "😱 ¡GTA VI ROMPIÓ PLAYSTATION! 🔥 39 MILLONES en solo 4 DÍAS 🎮 #GTAVI",
+      "videoId": "OLU8L_iR-c0",
+      "url": "https://www.youtube.com/shorts/OLU8L_iR-c0",
+      "miniatura": "https://i.ytimg.com/vi/OLU8L_iR-c0/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-24T19:08:38Z",
+      "fecha_video": "2026-11-24T19:14:19Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -79,29 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/CtQ35K-ppW4/maxresdefault.jpg",
       "fecha_playlist": "2026-11-23T01:30:01Z",
       "fecha_video": "2026-11-23T01:33:23Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡CHIVAS VS CRUZ AZUL POR EL LIDERATO! 😱 ¿Quién terminará primero? ⚽ #LigaMX",
-      "videoId": "Dxb-sm6uosc",
-      "url": "https://www.youtube.com/shorts/Dxb-sm6uosc",
-      "miniatura": "https://i.ytimg.com/vi/Dxb-sm6uosc/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-22T06:11:01Z",
-      "fecha_video": "2026-11-22T18:00:30Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "😱 ¡AMÉRICA CAE ANTE TIGRES! 🔥 ¿Quién será CAMPEÓN de la Liga MX? ⚽",
-      "videoId": "hnnRzprl0RE",
-      "url": "https://www.youtube.com/shorts/hnnRzprl0RE",
-      "miniatura": "https://i.ytimg.com/vi/hnnRzprl0RE/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-22T05:45:45Z",
-      "fecha_video": "2026-11-22T05:52:00Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO?",
+      "videoId": "KwKGp6sPzPo",
+      "url": "https://www.youtube.com/watch?v=KwKGp6sPzPo",
+      "embed": "https://www.youtube.com/embed/KwKGp6sPzPo?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/KwKGp6sPzPo/maxresdefault.jpg",
+      "fecha_video": "2026-11-24T17:55:38Z",
+      "en_vivo": false
+    },
     {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 EVENTO EN STEAL A BRAINROT 🧠 | ¿QUÉ NOS TOCARÁ HOY? 🔥 #01",
       "videoId": "oKYEjAervNo",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/oKYEjAervNo/maxresdefault.jpg",
       "fecha_video": "2026-11-22T10:35:36Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO?",
-      "videoId": "KwKGp6sPzPo",
-      "url": "https://www.youtube.com/watch?v=KwKGp6sPzPo",
-      "embed": "https://www.youtube.com/embed/KwKGp6sPzPo?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/KwKGp6sPzPo/maxresdefault.jpg?v=6b0528b9",
-      "fecha_video": "2026-11-21T22:00:18Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-24T13:38:48+00:00"
+  "_actualizado": "2026-11-24T23:52:33+00:00"
 }
