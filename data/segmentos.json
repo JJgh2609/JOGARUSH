@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡REAL MADRID FARMEÓ +9999 DE AURA! 😱 De perder 0-1 a GOLEAR 5-1 al PSV ⚽",
-    "videoId": "N2aHU3Z1oBU",
-    "url": "https://www.youtube.com/shorts/N2aHU3Z1oBU",
-    "miniatura": "https://i.ytimg.com/vi/N2aHU3Z1oBU/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-24T22:23:36Z",
-    "fecha_video": "2026-11-24T22:27:38Z"
+    "titulo": "🚨 ¡HOY ARRANCA LA LIGUILLA! 😱 América y Rayados con BAJAS 🔥 Horarios y partidos ⚽",
+    "videoId": "E0sJIls0AkA",
+    "url": "https://www.youtube.com/shorts/E0sJIls0AkA",
+    "miniatura": "https://i.ytimg.com/vi/E0sJIls0AkA/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-25T05:29:50Z",
+    "fecha_video": "2026-11-25T12:00:11Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🚨 ¡HOY ARRANCA LA LIGUILLA! 😱 América y Rayados con BAJAS 🔥 Horarios y partidos ⚽",
+      "videoId": "E0sJIls0AkA",
+      "url": "https://www.youtube.com/shorts/E0sJIls0AkA",
+      "miniatura": "https://i.ytimg.com/vi/E0sJIls0AkA/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-25T05:29:50Z",
+      "fecha_video": "2026-11-25T12:00:11Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/u7wzV1Pt1Jo/maxresdefault.jpg",
       "fecha_playlist": "2026-11-23T20:35:23Z",
       "fecha_video": "2026-11-23T20:35:44Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡CHIVAS ES LÍDER! 🏆 Así quedó la LIGUILLA 2026 😱 ¿Quién avanzará? #LigaMX",
-      "videoId": "CtQ35K-ppW4",
-      "url": "https://www.youtube.com/shorts/CtQ35K-ppW4",
-      "miniatura": "https://i.ytimg.com/vi/CtQ35K-ppW4/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-23T01:30:01Z",
-      "fecha_video": "2026-11-23T01:33:23Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-25T08:28:30+00:00"
+  "_actualizado": "2026-11-25T19:13:29+00:00"
 }
