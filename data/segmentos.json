@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡BARCELONA GOLEÓ 4-1 EN CHAMPIONS! 😱 ¡3 GOLES EN SOLO 9 MINUTOS! ⚽",
-    "videoId": "vbxMQhPTv4E",
-    "url": "https://www.youtube.com/shorts/vbxMQhPTv4E",
-    "miniatura": "https://i.ytimg.com/vi/vbxMQhPTv4E/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-25T21:15:45Z",
-    "fecha_video": "2026-11-25T21:19:38Z"
+    "titulo": "🔥 ¡CHIVAS Y CRUZ AZUL EN PELIGRO! 😱 Pachuca y León buscan la SORPRESA | Liguilla MX ⚽",
+    "videoId": "y6xObS92Mss",
+    "url": "https://www.youtube.com/shorts/y6xObS92Mss",
+    "miniatura": "https://i.ytimg.com/vi/y6xObS92Mss/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-26T06:22:13Z",
+    "fecha_video": "2026-11-26T12:00:19Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,26 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡CHIVAS Y CRUZ AZUL EN PELIGRO! 😱 Pachuca y León buscan la SORPRESA | Liguilla MX ⚽",
+      "videoId": "y6xObS92Mss",
+      "url": "https://www.youtube.com/shorts/y6xObS92Mss",
+      "miniatura": "https://i.ytimg.com/vi/y6xObS92Mss/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-26T06:22:13Z",
+      "fecha_video": "2026-11-26T12:00:19Z"
+    },
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "😱 ¡AMÉRICA NO PUDO CONTRA 10! 🔥 ¡MONTERREY RESISTE Y TOLUCA DESPERTÓ! ⚽",
+      "videoId": "2GNzi_oqzdc",
+      "url": "https://www.youtube.com/shorts/2GNzi_oqzdc",
+      "miniatura": "https://i.ytimg.com/vi/2GNzi_oqzdc/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-26T05:32:06Z",
+      "fecha_video": "2026-11-26T05:35:05Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -79,26 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/N2aHU3Z1oBU/maxresdefault.jpg",
       "fecha_playlist": "2026-11-24T22:23:36Z",
       "fecha_video": "2026-11-24T22:27:38Z"
-    },
-    {
-      "segmento": "gaming",
-      "etiqueta": "GAMING",
-      "titulo": "😱 ¡GTA VI ROMPIÓ PLAYSTATION! 🔥 39 MILLONES en solo 4 DÍAS 🎮 #GTAVI",
-      "videoId": "OLU8L_iR-c0",
-      "url": "https://www.youtube.com/shorts/OLU8L_iR-c0",
-      "miniatura": "https://i.ytimg.com/vi/OLU8L_iR-c0/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-24T19:08:38Z",
-      "fecha_video": "2026-11-24T19:14:19Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "😱 ¡CUIDADO CHIVAS! 🔥 ¿Se repetirá la HISTORIA en la LIGUILLA? ⚽ #LigaMX",
-      "videoId": "wg2wUQU7EiA",
-      "url": "https://www.youtube.com/shorts/wg2wUQU7EiA",
-      "miniatura": "https://i.ytimg.com/vi/wg2wUQU7EiA/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-24T01:25:12Z",
-      "fecha_video": "2026-11-24T01:28:12Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-26T03:32:22+00:00"
+  "_actualizado": "2026-11-26T16:50:51+00:00"
 }
