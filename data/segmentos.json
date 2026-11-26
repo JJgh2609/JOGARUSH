@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🚨 ¡HOY ARRANCA LA LIGUILLA! 😱 América y Rayados con BAJAS 🔥 Horarios y partidos ⚽",
-    "videoId": "E0sJIls0AkA",
-    "url": "https://www.youtube.com/shorts/E0sJIls0AkA",
-    "miniatura": "https://i.ytimg.com/vi/E0sJIls0AkA/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-25T05:29:50Z",
-    "fecha_video": "2026-11-25T12:00:11Z"
+    "titulo": "🔥 ¡BARCELONA GOLEÓ 4-1 EN CHAMPIONS! 😱 ¡3 GOLES EN SOLO 9 MINUTOS! ⚽",
+    "videoId": "vbxMQhPTv4E",
+    "url": "https://www.youtube.com/shorts/vbxMQhPTv4E",
+    "miniatura": "https://i.ytimg.com/vi/vbxMQhPTv4E/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-25T21:15:45Z",
+    "fecha_video": "2026-11-25T21:19:38Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🔥 ¡BARCELONA GOLEÓ 4-1 EN CHAMPIONS! 😱 ¡3 GOLES EN SOLO 9 MINUTOS! ⚽",
+      "videoId": "vbxMQhPTv4E",
+      "url": "https://www.youtube.com/shorts/vbxMQhPTv4E",
+      "miniatura": "https://i.ytimg.com/vi/vbxMQhPTv4E/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-25T21:15:45Z",
+      "fecha_video": "2026-11-25T21:19:38Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/wg2wUQU7EiA/maxresdefault.jpg",
       "fecha_playlist": "2026-11-24T01:25:12Z",
       "fecha_video": "2026-11-24T01:28:12Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡ARRANCA LA LIGUILLA 2026! ⚽ Horarios de IDA y equipos bajo presión 😱 #LigaMX",
-      "videoId": "u7wzV1Pt1Jo",
-      "url": "https://www.youtube.com/shorts/u7wzV1Pt1Jo",
-      "miniatura": "https://i.ytimg.com/vi/u7wzV1Pt1Jo/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-23T20:35:23Z",
-      "fecha_video": "2026-11-23T20:35:44Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-25T19:13:29+00:00"
+  "_actualizado": "2026-11-26T03:32:22+00:00"
 }
