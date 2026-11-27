@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🚨 ¡AMÉRICA LLEVA 6 SIN GANAR! 😱 ¿MONTERREY LO ELIMINARÁ EN EL ESTADIO BANORTE? ⚽",
-    "videoId": "wR0FTw_5HKk",
-    "url": "https://www.youtube.com/shorts/wR0FTw_5HKk",
-    "miniatura": "https://i.ytimg.com/vi/wR0FTw_5HKk/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-26T23:52:53Z",
-    "fecha_video": "2026-11-26T23:55:25Z"
+    "titulo": "🚨 ¡CHIVAS CAE 2-1! 😱 CRUZ AZUL GOLEA 4-0 Y VA POR EL BICAMPEONATO 🏆🔥",
+    "videoId": "-6up7b5smmI",
+    "url": "https://www.youtube.com/shorts/-6up7b5smmI",
+    "miniatura": "https://i.ytimg.com/vi/-6up7b5smmI/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-27T05:47:15Z",
+    "fecha_video": "2026-11-27T12:00:25Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🚨 ¡CHIVAS CAE 2-1! 😱 CRUZ AZUL GOLEA 4-0 Y VA POR EL BICAMPEONATO 🏆🔥",
+      "videoId": "-6up7b5smmI",
+      "url": "https://www.youtube.com/shorts/-6up7b5smmI",
+      "miniatura": "https://i.ytimg.com/vi/-6up7b5smmI/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-27T05:47:15Z",
+      "fecha_video": "2026-11-27T12:00:25Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,19 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/vbxMQhPTv4E/maxresdefault.jpg",
       "fecha_playlist": "2026-11-25T21:15:45Z",
       "fecha_video": "2026-11-25T21:19:38Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🚨 ¡HOY ARRANCA LA LIGUILLA! 😱 América y Rayados con BAJAS 🔥 Horarios y partidos ⚽",
-      "videoId": "E0sJIls0AkA",
-      "url": "https://www.youtube.com/shorts/E0sJIls0AkA",
-      "miniatura": "https://i.ytimg.com/vi/E0sJIls0AkA/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-25T05:29:50Z",
-      "fecha_video": "2026-11-25T12:00:11Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🧠🔥 | ¡BUSCANDO TRADES CON MUCHA AURA! #1k",
+      "videoId": "rCqSvMRTvhU",
+      "url": "https://www.youtube.com/watch?v=rCqSvMRTvhU",
+      "embed": "https://www.youtube.com/embed/rCqSvMRTvhU?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/rCqSvMRTvhU/maxresdefault.jpg",
+      "fecha_video": "2026-11-27T04:50:45Z",
+      "en_vivo": false
+    },
     {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO? #2",
       "videoId": "uf6yrDVD22A",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/uf6yrDVD22A/maxresdefault.jpg",
       "fecha_video": "2026-11-25T06:24:56Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO?",
-      "videoId": "KwKGp6sPzPo",
-      "url": "https://www.youtube.com/watch?v=KwKGp6sPzPo",
-      "embed": "https://www.youtube.com/embed/KwKGp6sPzPo?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/KwKGp6sPzPo/maxresdefault.jpg",
-      "fecha_video": "2026-11-24T17:55:38Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-27T01:43:12+00:00"
+  "_actualizado": "2026-11-27T12:12:28+00:00"
 }
