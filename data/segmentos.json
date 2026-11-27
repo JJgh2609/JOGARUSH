@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "🔥 ¡CHIVAS Y CRUZ AZUL EN PELIGRO! 😱 Pachuca y León buscan la SORPRESA | Liguilla MX ⚽",
-    "videoId": "y6xObS92Mss",
-    "url": "https://www.youtube.com/shorts/y6xObS92Mss",
-    "miniatura": "https://i.ytimg.com/vi/y6xObS92Mss/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-26T06:22:13Z",
-    "fecha_video": "2026-11-26T12:00:19Z"
+    "titulo": "🚨 ¡AMÉRICA LLEVA 6 SIN GANAR! 😱 ¿MONTERREY LO ELIMINARÁ EN EL ESTADIO BANORTE? ⚽",
+    "videoId": "wR0FTw_5HKk",
+    "url": "https://www.youtube.com/shorts/wR0FTw_5HKk",
+    "miniatura": "https://i.ytimg.com/vi/wR0FTw_5HKk/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-26T23:52:53Z",
+    "fecha_video": "2026-11-26T23:55:25Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🚨 ¡AMÉRICA LLEVA 6 SIN GANAR! 😱 ¿MONTERREY LO ELIMINARÁ EN EL ESTADIO BANORTE? ⚽",
+      "videoId": "wR0FTw_5HKk",
+      "url": "https://www.youtube.com/shorts/wR0FTw_5HKk",
+      "miniatura": "https://i.ytimg.com/vi/wR0FTw_5HKk/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-26T23:52:53Z",
+      "fecha_video": "2026-11-26T23:55:25Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,16 +99,6 @@
       "miniatura": "https://i.ytimg.com/vi/E0sJIls0AkA/maxresdefault.jpg",
       "fecha_playlist": "2026-11-25T05:29:50Z",
       "fecha_video": "2026-11-25T12:00:11Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡REAL MADRID FARMEÓ +9999 DE AURA! 😱 De perder 0-1 a GOLEAR 5-1 al PSV ⚽",
-      "videoId": "N2aHU3Z1oBU",
-      "url": "https://www.youtube.com/shorts/N2aHU3Z1oBU",
-      "miniatura": "https://i.ytimg.com/vi/N2aHU3Z1oBU/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-24T22:23:36Z",
-      "fecha_video": "2026-11-24T22:27:38Z"
     }
   ],
   "youtube_destacados": [
@@ -121,5 +121,5 @@
       "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-26T16:50:51+00:00"
+  "_actualizado": "2026-11-27T01:43:12+00:00"
 }
