@@ -22,12 +22,12 @@
   "futbol": {
     "segmento": "futbol",
     "etiqueta": "FÚTBOL",
-    "titulo": "😱 ¡CHIVAS EN PELIGRO! 🚨 ¿CRUZ AZUL YA HUELE EL BICAMPEONATO? 🏆⚽",
-    "videoId": "-6up7b5smmI",
-    "url": "https://www.youtube.com/shorts/-6up7b5smmI",
-    "miniatura": "https://i.ytimg.com/vi/-6up7b5smmI/maxresdefault.jpg",
-    "fecha_playlist": "2026-11-27T05:47:15Z",
-    "fecha_video": "2026-11-27T12:00:25Z"
+    "titulo": "🚨 ¡EXPULSAN A IDRISSI TRAS SU DOBLETE! 😱 ¿CHIVAS LO PROVOCÓ O FUE INJUSTA LA ROJA? ⚽",
+    "videoId": "urR1jIrVDoA",
+    "url": "https://www.youtube.com/shorts/urR1jIrVDoA",
+    "miniatura": "https://i.ytimg.com/vi/urR1jIrVDoA/maxresdefault.jpg",
+    "fecha_playlist": "2026-11-28T00:43:26Z",
+    "fecha_video": "2026-11-28T00:46:32Z"
   },
   "gaming": {
     "segmento": "gaming",
@@ -50,6 +50,16 @@
     "fecha_video": "2026-10-26T19:50:57Z"
   },
   "ultimos_shorts": [
+    {
+      "segmento": "futbol",
+      "etiqueta": "FÚTBOL",
+      "titulo": "🚨 ¡EXPULSAN A IDRISSI TRAS SU DOBLETE! 😱 ¿CHIVAS LO PROVOCÓ O FUE INJUSTA LA ROJA? ⚽",
+      "videoId": "urR1jIrVDoA",
+      "url": "https://www.youtube.com/shorts/urR1jIrVDoA",
+      "miniatura": "https://i.ytimg.com/vi/urR1jIrVDoA/maxresdefault.jpg",
+      "fecha_playlist": "2026-11-28T00:43:26Z",
+      "fecha_video": "2026-11-28T00:46:32Z"
+    },
     {
       "segmento": "futbol",
       "etiqueta": "FÚTBOL",
@@ -89,19 +99,18 @@
       "miniatura": "https://i.ytimg.com/vi/2GNzi_oqzdc/maxresdefault.jpg",
       "fecha_playlist": "2026-11-26T05:32:06Z",
       "fecha_video": "2026-11-26T05:35:05Z"
-    },
-    {
-      "segmento": "futbol",
-      "etiqueta": "FÚTBOL",
-      "titulo": "🔥 ¡BARCELONA GOLEÓ 4-1 EN CHAMPIONS! 😱 ¡3 GOLES EN SOLO 9 MINUTOS! ⚽",
-      "videoId": "vbxMQhPTv4E",
-      "url": "https://www.youtube.com/shorts/vbxMQhPTv4E",
-      "miniatura": "https://i.ytimg.com/vi/vbxMQhPTv4E/maxresdefault.jpg",
-      "fecha_playlist": "2026-11-25T21:15:45Z",
-      "fecha_video": "2026-11-25T21:19:38Z"
     }
   ],
   "youtube_destacados": [
+    {
+      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🧠🔥 | ¡BUSCANDO TRADES CON MUCHA AURA! #2k",
+      "videoId": "HMQlkktt8rs",
+      "url": "https://www.youtube.com/watch?v=HMQlkktt8rs",
+      "embed": "https://www.youtube.com/embed/HMQlkktt8rs?rel=0",
+      "miniatura": "https://i.ytimg.com/vi/HMQlkktt8rs/maxresdefault.jpg?v=6b090e8f",
+      "fecha_video": "2026-11-27T05:01:03Z",
+      "en_vivo": true
+    },
     {
       "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🧠🔥 | ¡BUSCANDO TRADES CON MUCHA AURA! #1k",
       "videoId": "rCqSvMRTvhU",
@@ -110,16 +119,7 @@
       "miniatura": "https://i.ytimg.com/vi/rCqSvMRTvhU/maxresdefault.jpg",
       "fecha_video": "2026-11-27T04:50:45Z",
       "en_vivo": false
-    },
-    {
-      "titulo": "🔴 LiVe - eN ViVo - RoBLoX BRaiNRoT 🔴 REGRESO A LOS TRADES 🧠🔥 | ¿ME ESTAFAN O SALGO GANANDO? #2",
-      "videoId": "uf6yrDVD22A",
-      "url": "https://www.youtube.com/watch?v=uf6yrDVD22A",
-      "embed": "https://www.youtube.com/embed/uf6yrDVD22A?rel=0",
-      "miniatura": "https://i.ytimg.com/vi/uf6yrDVD22A/maxresdefault.jpg",
-      "fecha_video": "2026-11-25T06:24:56Z",
-      "en_vivo": false
     }
   ],
-  "_actualizado": "2026-11-27T21:14:42+00:00"
+  "_actualizado": "2026-11-28T03:18:59+00:00"
 }
